@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\intelFPGA_lite\\PWM\\hw\\quartus\\software\\PWM
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\intelFPGA_lite\\PWM\\hw\\quartus\\PWM_system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\intelFPGA_lite\\PWM\\hw\\quartus\\software\\PWM_bsp

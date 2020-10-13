@@ -1,0 +1,1104 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+
+
+<html id="intel_fpga" class="en_us" data-region="en_us">
+<head>
+  
+<title>Nios® II Processor - Nios&reg; II Processors Support</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=8; IE=9; IE=10; IE=11">
+  <meta name="description" content="">
+  <meta name="date" content="2019-02-01">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+<title>Nios&reg; II Processors Support</title>
+
+  <link rel="stylesheet" href="/etc/clientlibs/psg/core/granite/jquery-ui.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/altera-www/global/custom-bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/altera-www/global.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/psg/core/granite/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/psg/core/granite/utils.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/psg/core/granite/jquery/granite.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/psg/core/foundation/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/psg/core/granite/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/psg/core/foundation/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/altera-www/global/custom-bootstrap.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/altera-www/global.min.js"></script>
+<link rel="stylesheet" href="/etc/clientlibs/altera-www/fonts/default.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/altera-www/components.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/altera-www/comps.min.css" type="text/css">
+<!-- Tealium Tagging + target -->
+    <script type="text/javascript">
+      var wapLocalCode = 'us-en';
+      var wapSection = "altera";
+    </script>
+    <script type="text/javascript" src="https://www.intel.com/content/dam/www/global/wap/wap-altera.js"></script>
+<!--IGHF (Performance tweaks for Mobile and Slow connections)-->  
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://www.intel.com" pr="1.0">
+<link rel="dns-prefetch" href="https://www.google-analytics.com" pr="1.0">
+<link rel="preconnect" href="https://www.intel.com" crossorigin="anonymous" pr="1.0">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin="anonymous" pr="1.0"> 
+<!--/IGHF-->
+	
+    <!--IGHF Loader-->
+<!--[if le IE 9]>
+<script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC DEFER></script>
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<script type="text/javascript" src="https://www.intel.com/ighf/50recode.2/js/headerchooser.js" ASYNC></script>
+<!--<![endif]-->
+<script>INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 03/12/2017 08:00:00",textDirection:"--",culture:"--",OutputId:"--"};</script>
+<!--/IGHF Loader--></head>
+
+<body>
+<script type="text/javascript" src="/content/dam/altera-www/global/en_US/scripts/js/survey/onsite.js"></script>
+<script type="text/javascript">
+      INTELNAV.dashboard = {
+        languageSelector: {
+          settings: {
+            behavior: "mineOnly",
+            method: "path",
+            regex: /\/content\/www\/\w{2}\/\w{2}/
+          },
+          geos: [
+            { geo: "en_us", path: "/content/www/us/en" },
+            { geo: "zh_cn", path: "/content/www/cn/zh" },
+            { geo: "ja_jp", path: "/content/www/jp/ja" }
+          ]
+        }
+      };
+    </script>
+    <!--googleoff:all-->
+    <!--IGHF Header-->
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50header"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {};INTELNAV.renderSettings={version:"2.0 - 10/02/2017 08:00:00",textDirection:"ltr",culture:"en_US",OutputId:"default"};
+/*]]>*/</script>
+<noscript><link rel="stylesheet" href="https://www.intel.com/ighf/50recode.2/css/ltr_nojsheader.css" type="text/css"><div id="smallfootprint-header"><a href="https://www.intel.com/content/www/us/en/homepage.html" class="gaat40-logo" title="Logo - Intel"></a><form method="get" id="user-bar-searchbox-form" name="user-bar-searchbox-form" action="https://www.intel.com/content/www/us/en/search.html"><input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none" tabindex="0"><input id="query" name="query" type="hidden" value="" tabindex="0"><fieldset><legend></legend><label for="input-search">Search</label><input type="text" id="input-search" name="keyword" tabindex="0" autocomplete="off" /><input type="submit" id="input-submit" name="input-submit" value="Search" /></fieldset></form></div></noscript>
+<!--/IGHF Header-->
+    <!--googleon:all--><div class="main-wrapper" id="page_product_tabbed"> <nav class="breadcrumbs-container">
+  <div class="breadcrumbs container breadcrumb"><a class="breadcrumb-links" href="/content/altera-www/global/en_us/index.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/altera-www/global/en_us/index.html' },collect: false,options: { obj: this },componentPath: 'altera-www/components/included/breadcrumb'})">Intel® FPGAs and Programmable Devices</a>
+<span class="breadcrumb-arrow">/</span>
+<a class="breadcrumb-links" href="/content/www/us/en/programmable/products/processors.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/altera-www/global/en_us/index/products/processors.html' },collect: false,options: { obj: this },componentPath: 'altera-www/components/included/breadcrumb'})">Processor</a>
+<span class="breadcrumb-arrow">/</span>
+<span class="title">Nios® II Processors Support</span>
+</div>
+</nav>
+
+<div class="featurePanel-2-col">
+<div class="top-ipar iparsys parsys"><div class="section"><div class="new"></div>
+</div><div class="iparys_inherited"><div class="top-ipar iparsys parsys"><header class="title section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gradient-title large">
+	
+	
+
+
+
+
+	
+	<div class="title-content-wrapper center-align">
+		<div class="breadcrumbs-container">
+			<style>
+				nav.breadcrumbs-container
+				{
+					display:none !important; 
+				}
+			</style>
+			<a class="breadcrumb-links" href="/content/altera-www/global/en_us/index.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/altera-www/global/en_us/index.html' },collect: false,options: { obj: this },componentPath: 'altera-www/components/included/breadcrumb'})">Intel® FPGAs and Programmable Devices</a>
+<span class="breadcrumb-arrow">/</span>
+<a class="breadcrumb-links" href="/content/www/us/en/programmable/products/processors.html" onclick="CQ_Analytics.record({event:'followBreadcrumb',values: { breadcrumbPath: '/content/altera-www/global/en_us/index/products/processors.html' },collect: false,options: { obj: this },componentPath: 'altera-www/components/included/breadcrumb'})">Processor</a>
+<span class="breadcrumb-arrow">/</span>
+<span class="title">Nios® II Processors Support</span>
+
+		</div>
+		
+		<div class="text-container">
+		    
+		    
+		        <h1 class="page-title  headline-title">Nios® II Processors Support</h1>
+		    
+
+		    
+		        
+				
+		    
+		</div>
+	</div>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<div class="link-bar-container">
+<div class="link-bar container"><ul class="no-bullets link-bar-nav">
+	</ul>
+</div>
+</div>
+
+<div class="main-content"><!--  start of main-content -->
+  <div class="content-body-par parsys">
+
+
+<div class="text-media parbase">
+
+
+
+<div class=" theme-white theme-dark-text">
+	<div class="container -container">
+		<div class="txt-media-wrapper top-padding bottom-padding  row section-content    text-media-text-only">
+			
+
+
+
+
+
+    <section class='text-media-item txt-media-content-wrapper-left text-media-content article-section col-md-12  '>
+        
+
+
+
+
+
+        <div class="txt-multimedia-content">
+        <p>Welcome to the Intel® Nios® II Precessor Support page! This page is designed to provide extensive documentation and support for the Nios® II family of embedded processors to help you quickly and easily develop and debug your embedded processor systems. </p>
+<p>Navigate to:</p>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/products/programmable/processor/nios-ii.html" target="_blank">Intel® Nios® II Processors homepage</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/intellectual-property/embedded/nios-ii/legacy-support/ips-nios2_support.html" target="_blank">Intel® Nios® II Embedded Design Suite Support page</a></li>
+</ul>
+
+</div>
+        
+
+
+    </section>
+
+		</div>
+		
+	</div>
+</div></div>
+<div class="sections">
+
+
+
+<div class="sections-side-nav  top-padding bottom-padding container">
+	<div class="row">
+		
+			<div class="col-md-3">
+				<!-- Nav tabs -->
+				<div class="navbar-items  side-nav-navbar-items ">
+					<ul class="section-nav nav  nav-stacked no-bullets">
+						<li role="presentation" class="section-nav-item active">
+							<a class="section-url" href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab">Documentation</a>
+						</li>
+					
+						<li role="presentation" class="section-nav-item ">
+							<a class="section-url" href="#white_papers" aria-controls="white_papers" role="tab" data-toggle="tab">White Papers</a>
+						</li>
+					
+						<li role="presentation" class="section-nav-item ">
+							<a class="section-url" href="#one_click_documentation_downloads" aria-controls="one_click_documentation_downloads" role="tab" data-toggle="tab">One-Click Documentation Downloads</a>
+						</li>
+					
+						<li role="presentation" class="section-nav-item ">
+							<a class="section-url" href="#training_demonstrations" aria-controls="training_demonstrations" role="tab" data-toggle="tab">Training &amp; Demonstrations</a>
+						</li>
+					
+						<li role="presentation" class="section-nav-item ">
+							<a class="section-url" href="#legacy_documentation" aria-controls="legacy_documentation" role="tab" data-toggle="tab">Legacy Documentation</a>
+						</li>
+					</ul>
+				</div>
+				<button class="nav-paddle nav-next hide"></button>
+				<button class="nav-paddle nav-prev hide"></button>
+			</div>
+		
+		
+			<div class="col-md-9">
+				<!-- Tab panes -->
+				<div class="tab-content">
+					
+					<div role="tabpanel" class="tab-pane  active" id="documentation">
+						
+						
+
+    
+    
+    
+    <div class="table parbase"><div class="altera-table container">
+<div class="table-wrapper top-padding bottom-padding">
+        <div class="table-content table-responsive " id="comp-4446a8bb-ca54-4f25-941d-de7cb026a974">
+        <input type="hidden" id="keywords_text" value="" />
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="1">
+<tbody><tr><td>Document</td>
+<td>Details</td>
+<td>HTML</td>
+<td>PDF</td>
+</tr><tr><td width="25%"><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1420498949526.html">Nios II Processor Reference Guide</a><br>
+</td>
+<td><p>This handbook describes the&nbsp;Nios®&nbsp;II&nbsp;processor from a high-level conceptual description to the low-level details of implementation, inlcuding the&nbsp;Nios®&nbsp;II&nbsp;processor architecture, programming model, and instruction set.</p>
+<p>This handbook answers the question, &quot;What is the Nios II processor?&quot; and is the primary reference for the Nios II architecture.</p>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1420498949526.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2cpu-nii5v1gen2.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1419794938488.html">Nios II Software Developer's Handbook</a><br>
+</td>
+<td><p>This handbook describes the basic information needed to develop embedded software for the Intel FPGA®&nbsp;Nios II processor. The Nios II&nbsp;processor contains new features added after the&nbsp;Intel®&nbsp;Quartus®&nbsp;Prime&nbsp;14.0 version. The chapters in this handbook describes the&nbsp;Nios®&nbsp;II&nbsp;software development environment, the&nbsp;Nios®&nbsp;II&nbsp;Embedded Design Suite (EDS) tools that are available to you, and the process for developing software.&nbsp;</p>
+<p>This handbook answers the question, &quot;How do I write applicaitons for the Nios II processor?&quot; and is the primary reference for Nios II software development.</p>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1419794938488.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2sw_nii5v2gen2.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1446487888057.html">Embedded Design Handbook</a><br>
+</td>
+<td>The Embedded Design Handbook describes how to most effectively use the Nios II Embedded Design Suite (EDS) tools, and recommends design styles and practices for developing, debugging, and optimizing Nios II&nbsp; processor-based embedded systems using&nbsp;Intel provided tools.&nbsp;<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1446487888057.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/edh_ed_handbook.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/sfo1400787952932.html">Embedded Peripherals IP User Guide</a><br>
+</td>
+<td>This user guide describes the IP cores provided by&nbsp;Intel®&nbsp;Quartus®&nbsp;Prime Design Software, including the embedded periperhals that work seamlessly with the Nios II processor.&nbsp;<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/sfo1400787952932.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_embedded_ip.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/intellectual-property/embedded/nios-ii/release-notes/ips-niosii-rn.html">Nios II Release Notes</a><br>
+</td>
+<td>These release notes cover the&nbsp;16.1&nbsp;through 18.1 releases for the&nbsp;Nios®&nbsp;II&nbsp;Embedded Design Suite (EDS),&nbsp;Nios®&nbsp;II&nbsp;Processor IP, and&nbsp;Embedded Intellectual Property (IP)&nbsp;cores.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1465407474833.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/rn/rn_nios2.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><p><a href="https://www.intel.com/content/www/us/en/programmable/documentation/cru1439932898327.html">Nios II Custom Instruction User Guide</a></p>
+<p>&nbsp;</p>
+<p><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/intellectual-property/embedded/nios-ii/exm-custom-instruction.html">Design Example</a></p>
+</td>
+<td><p>Custom instructions give the ability to tailor the Nios II processor to meet the needs of a particular application. This user guide gives a detailed overview of hte&nbsp;Nios II custom instruction feature.</p>
+<p>&nbsp;</p>
+<p>The Custom Instruction Design Example shows how to implement the cyclic redundancy check (CRC) algorithm as a Nios®&nbsp;II custom instruction.</p>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/cru1439932898327.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_nios2_custom_instruction.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1408573581143.html">Nios II Processor Performance Benchmark</a><br>
+</td>
+<td>This datasheet lists the performance and logic element (LE) usage for a typical implementation of a&nbsp;Nios®&nbsp;II&nbsp;soft processor&nbsp;and peripherals.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1408573581143.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ds_nios2_perf.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1429457708611.html">Nios II Flash Programmer User Guide</a><br>
+</td>
+<td>This user guide gives a detailed overview of the Nios II Flash Programmer, which sends file contents over a download cable, such as the Intel® FPGA Download Cable, to a Nios II system running on the FPGA, and instructs the Nios II system to write the data to flash memory.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1429457708611.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_nios2_flash_programmer.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1446847781805.html">Intel®&nbsp;FPGA Download Cable II User Guide</a><br>
+</td>
+<td>This user guide describes the Intel FPGA download cable II, interfaces a USB port on a host computer to an Intel FPGA mounted on a printed circuit board.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1446847781805.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_usb_blstr_ii_cable.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/nik1412471932581.html">Avalon®&nbsp;Verificaiton IP Suite User Guide</a><br>
+</td>
+<td>This user guide&nbsp;describes the Avalon®&nbsp;Verification IP Suite, which provides bus functional models (BFMs) to simulate the behavior and facilitate the verification of IP.&nbsp;<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/nik1412471932581.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_avalon_verification_ip.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/bhc1423797291882.html">AN 729: Implementing JESD204B IP Core System Reference Design with Nios II Processor</a><br>
+</td>
+<td><p>This reference design demonstrates the JESD204B IP core operating as part of a system that includes: Intel JESD204B&nbsp;transport layer (assembler and deassembler),&nbsp;test pattern generator and checker,&nbsp;core PLL,&nbsp;SPI master,&nbsp;reset sequencer,&nbsp;various dynamic reconfiguration controllers, and the&nbsp;Nios®&nbsp;II processor as the control unit.</p>
+<p>The key feature of this reference design is the software-based control flow that utilizes the Nios II processor control unit.</p>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/bhc1423797291882.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an729.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1430148924600.html">AN 740: Nios II Flash Accelerator Using MAX 10</a><br>
+</td>
+<td>The Nios II flash accelerator was introduced as&nbsp;part of the initiative to improve Nios II/f &quot;fast&quot; core performance in real time applications. This document introduces the accelerator and describes the features, parameters, and performance using a MAX 10 FPGA.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/lro1430148924600.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an740.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><p><a href="https://www.intel.com/content/www/us/en/programmable/documentation/sss1430185325021.html">AN 741: Remote System Upgrade for MAX 10 FPGA Devices over UART with the Nios II Processor</a></p>
+<p>&nbsp;</p>
+<p><a href="https://fpgacloud.intel.com/devstore/platform/16.1.0/Standard/max10-remote-system-upgrade-rsu-over-uart-for-nios-ii-processor/">Design Example</a></p>
+</td>
+<td>This reference design provides a simple application that implements basic remote configuration features in Nios II-based systems for MAX 10 FPGA devices. The UART interface included in the MAX 10 FPGA Development Kit is used together with Altera UART IP core to provide the remote configuration functionality.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/sss1430185325021.html" target="_blank">HTML</a></td>
+<td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an741.pdf" target="_blank">PDF</a></td>
+</tr><tr><td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1409256728501.html">Nios® II Classic Processor Reference Guide</a><br>
+</td>
+<td>This handbook describes the Nios®&nbsp;II Classic processor from a high-level conceptual description to the low-level details of implementation. The chapters in this handbook describe the Nios&nbsp;II processor architecture, the programming model, and the instruction set.<br>
+</td>
+<td><a href="https://www.intel.com/content/www/us/en/programmable/documentation/iga1409256728501.html" target="_blank">HTML</a></td>
+<td>-</td>
+</tr></tbody></table>
+</div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+        //document.getElementById("copyButton").addEventListener("click", function() {
+    	$('#comp-4446a8bb-ca54-4f25-941d-de7cb026a974 #copyButton').click(function(){
+   			copyToClipboardMsg(document.getElementById("copyTarget"),"msg");
+
+    		$(".share-container").next().hide(); //hide share-container
+			$(".share-container").hide();
+			$(".share-container").prev().removeClass('active'); //remove class on btn-share
+		});
+
+function copyToClipboardMsg(elem, msgElem) {
+	  var succeed = copyToClipboard(elem);
+    var msg;
+    if (!succeed) {
+        msg = "Copy not supported or blocked.  Press Ctrl+c to copy."
+    } else {
+        msg = "Text copied to the clipboard."
+    }
+
+    alert(msg);
+}
+
+function copyToClipboard(elem) {
+	  // create hidden text element, if it doesn't already exist
+    var targetId = "_hiddenCopyText_";
+    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var origSelectionStart, origSelectionEnd;
+    if (isInput) {
+        // can just use the original source element for the selection and copy
+        target = elem;
+        origSelectionStart = elem.selectionStart;
+        origSelectionEnd = elem.selectionEnd;
+    } else {
+        // must use a temporary form element for the selection and copy
+        target = document.getElementById(targetId);
+        if (!target) {
+            var target = document.createElement("textarea");
+            target.style.position = "absolute";
+            target.style.left = "-9999px";
+            target.style.top = "0";
+            target.id = targetId;
+            document.body.appendChild(target);
+        }
+        target.textContent = elem.textContent;
+    }
+    // select the content
+    var currentFocus = document.activeElement;
+    target.focus();
+    target.setSelectionRange(0, target.value.length);
+
+    // copy the selection
+    var succeed;
+    try {
+    	  succeed = document.execCommand("copy");
+    } catch(e) {
+        succeed = false;
+    }
+    // restore original focus
+    if (currentFocus && typeof currentFocus.focus === "function") {
+        currentFocus.focus();
+    }
+
+    if (isInput) {
+        // restore prior selection
+        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+    } else {
+        // clear temporary content
+        target.textContent = "";
+    }
+    return succeed;
+}
+</script>
+
+</div>
+
+
+
+					</div>
+				
+					
+					<div role="tabpanel" class="tab-pane  " id="white_papers">
+						
+						
+
+    
+    
+    
+    <div class="table parbase"><div class="altera-table container">
+<div class="table-title"><h2>White Papers</h2></div><div class="table-wrapper top-padding bottom-padding">
+        <div class="table-content table-responsive " id="comp-481b402c-2260-46a7-ab81-82a75e8757fa">
+        <input type="hidden" id="keywords_text" value="" />
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="1">
+<tbody><tr><td width="25%">Title</td>
+<td>Details</td>
+</tr><tr><td><a href="/content/dam/altera-www/global/en_US/pdfs/literature/wp/wp-01255-top-7-reasons-to-replace-your-microcontroller-with-a-max-10-fpga.pdf" target="_blank">Top 7 Reasons to Replace Your Microcontroller with a Intel MAX 10 FPGA</a>&nbsp;(PDF)</td>
+<td>This white paper discusses how to differentiate products, meet time-to-market schedules, and navigate processor obsolescence risk with Intel® MAX 10 FPGAs and the Nios II processor.<br>
+</td>
+</tr><tr><td><a href="/content/dam/altera-www/global/en_US/pdfs/literature/wp/wp-01162-motor-control-toolflow.pdf" target="_blank">Motor Control Desings with an Integrated FPGA Design Flow</a>&nbsp;(PDF)</td>
+<td>This white paper describes a recommended design flow that leverages Intel's FPGAs' adaptability, variable-precision digital signal processing (DSP), and integrated system-level design tools for motor control designs. Designers of motor-driven equipment can take advantage of the performance, integration, and efficiency benefits of this design flow.<br>
+</td>
+</tr></tbody></table>
+</div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+        //document.getElementById("copyButton").addEventListener("click", function() {
+    	$('#comp-481b402c-2260-46a7-ab81-82a75e8757fa #copyButton').click(function(){
+   			copyToClipboardMsg(document.getElementById("copyTarget"),"msg");
+
+    		$(".share-container").next().hide(); //hide share-container
+			$(".share-container").hide();
+			$(".share-container").prev().removeClass('active'); //remove class on btn-share
+		});
+
+function copyToClipboardMsg(elem, msgElem) {
+	  var succeed = copyToClipboard(elem);
+    var msg;
+    if (!succeed) {
+        msg = "Copy not supported or blocked.  Press Ctrl+c to copy."
+    } else {
+        msg = "Text copied to the clipboard."
+    }
+
+    alert(msg);
+}
+
+function copyToClipboard(elem) {
+	  // create hidden text element, if it doesn't already exist
+    var targetId = "_hiddenCopyText_";
+    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var origSelectionStart, origSelectionEnd;
+    if (isInput) {
+        // can just use the original source element for the selection and copy
+        target = elem;
+        origSelectionStart = elem.selectionStart;
+        origSelectionEnd = elem.selectionEnd;
+    } else {
+        // must use a temporary form element for the selection and copy
+        target = document.getElementById(targetId);
+        if (!target) {
+            var target = document.createElement("textarea");
+            target.style.position = "absolute";
+            target.style.left = "-9999px";
+            target.style.top = "0";
+            target.id = targetId;
+            document.body.appendChild(target);
+        }
+        target.textContent = elem.textContent;
+    }
+    // select the content
+    var currentFocus = document.activeElement;
+    target.focus();
+    target.setSelectionRange(0, target.value.length);
+
+    // copy the selection
+    var succeed;
+    try {
+    	  succeed = document.execCommand("copy");
+    } catch(e) {
+        succeed = false;
+    }
+    // restore original focus
+    if (currentFocus && typeof currentFocus.focus === "function") {
+        currentFocus.focus();
+    }
+
+    if (isInput) {
+        // restore prior selection
+        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+    } else {
+        // clear temporary content
+        target.textContent = "";
+    }
+    return succeed;
+}
+</script>
+
+</div>
+
+
+
+					</div>
+				
+					
+					<div role="tabpanel" class="tab-pane  " id="one_click_documentation_downloads">
+						
+						
+
+    
+    
+    
+    <div class="text-media parbase">
+
+
+
+<div class=" theme-white theme-dark-text">
+	<div class="container -container">
+		<div class="txt-media-wrapper top-padding bottom-padding  row section-content multimedia-on-left   text-media-text-only">
+			
+
+
+
+
+
+    <section class='text-media-item txt-media-content-wrapper-left text-media-content article-section col-md-12  '>
+        
+
+
+
+
+
+	<header class="txt-multimedia-hd" title="Embedded Documentation One-Click Download">
+		
+				<h2 class="txt-media-title content-title ">Embedded Documentation One-Click Download</h2>
+		
+
+		
+	</header>
+
+        <div class="txt-multimedia-content">
+        <p>Intel provides one-click download ZIP files that include all the documentation that are related to the Nios II processor.</p>
+<ul>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-18-0.zip">Version 18.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-17-1.zip" target="_blank">Version 17.1 (.zip)</a></li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-17-0.zip" target="_blank">Version 17.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-16-1.zip" target="_blank">Version 16.1 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-16-0.zip" target="_blank">Version 16.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-15-1.zip" target="_blank">Version 15.1 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII-docs-15-0.zip" target="_blank">Version 15.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosII_docs_14_1.zip" target="_blank">Version 14.1 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosii_docs_14_0.zip" target="_blank">Version 14.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosii_docs_13_1.zip" target="_blank">Version 13.1 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosii_docs_13_0.zip" target="_blank">Version 13.0 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosii_docs_12_1.zip" target="_blank">Version 12.1 (.zip)</a><br />
+</li>
+<li><a href="/content/dam/altera-www/global/en_US/others/support/ip/nios2/niosii_docs_12_0.zip" target="_blank">Version 12.0 (.zip)</a><br />
+</li>
+</ul>
+
+</div>
+        
+
+
+    </section>
+
+		</div>
+		
+	</div>
+</div></div>
+
+
+
+					</div>
+				
+					
+					<div role="tabpanel" class="tab-pane  " id="training_demonstrations">
+						
+						
+
+    
+    
+    
+    <div class="text-media parbase">
+
+
+
+<div class=" theme-white theme-dark-text">
+	<div class="container -container">
+		<div class="txt-media-wrapper top-padding bottom-padding  row section-content multimedia-on-left   text-media-text-only">
+			
+
+
+
+
+
+    <section class='text-media-item txt-media-content-wrapper-left text-media-content article-section col-md-12  '>
+        
+
+
+
+
+
+	<header class="txt-multimedia-hd" title="Nios II Training Resources">
+		
+				<h2 class="txt-media-title content-title ">Nios II Training Resources</h2>
+		
+
+		
+	</header>
+
+        <div class="txt-multimedia-content">
+        <ul>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/products/design-software/design-software/embedded-software-developers.html" target="_blank">Embedded Training Resources</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/training/demonstrations/online/embedded-processor.html?wapkw=embedded+training+resources" target="_blank">Nios II Processor Online Demonstratoins</a></li>
+</ul>
+<p> </p>
+<p>For more information on our full training curriculum beyond Nios II, please visit:</p>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/training/curricula.html" target="_blank">Embedded Hardware Training Resources</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/training/curricula.html" target="_blank">Software Development Training Curriculum</a></li>
+</ul>
+<p> </p>
+
+</div>
+        
+
+
+    </section>
+
+		</div>
+		
+	</div>
+</div></div>
+
+
+
+					</div>
+				
+					
+					<div role="tabpanel" class="tab-pane  " id="legacy_documentation">
+						
+						
+
+    
+    
+    
+    <div class="table parbase"><div class="altera-table container">
+<div class="table-title"><h2><p><a name='for-the-nios-ii-classic'></a>Legacy Documencaiton</p></h2></div><div class="table-wrapper top-padding bottom-padding">
+        <div class="table-content table-responsive " id="comp-cbbf1ab4-aee5-425f-a5c1-6a0c3f16486e">
+        <input type="hidden" id="keywords_text" value="" />
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="1">
+<tbody><tr><td width="25%">Document</td>
+<td width="30%" style="text-align: center;">PDF</td>
+<td width="30%" style="text-align: center;">Design Files / Design HTML</td>
+</tr><tr><td width="40%"><p>AN 748: Nios II Gen2 Migration Guide<br>
+</p>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an748.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td width="25%">Nios II Classic Processor Reference Guide<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/nios2/n2cpu_nii5v1.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>Nios II Classic Software Developer’s Handbook<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/hb/nios2/n2sw_nii5v2.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 527: Implementing an LCD Controller<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an527.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 548: Nios II Compact Configuration System for Cyclone III<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an548.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/intellectual-property/embedded/nios-ii/exm-nios-compact.html" target="_blank">HTML</a></td>
+</tr><tr><td>Creating Multiprocessor Nios II Systems Tutorial<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/tt/tt_nios2_multiprocessor_tutorial.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/intellectual-property/embedded/nios-ii/exm-multi-nios2-hardware.html" target="_blank">HTML</a></td>
+</tr><tr><td>Nios II 3C25 Microprocessor with LCD Controller Data Sheet<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ds_nios2_3c25_lcd.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>Nios II 3C120 Microprocessor with LCD Controller Data Sheet<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ds_nios2_3c120_lcd.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 429: Remote Configuration Over Ethernet with the Nios II Processor<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an429.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/altera-www/global/en_US/others/literature/an/an429_remote_configuration.zip">Design Files (.zip)</a></td>
+</tr><tr><td>AN 459: Guidelines for Developing a Nios II HAL Device Driver<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an459.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/intellectual-property/embedded/nios-ii/exm-developing-hal-drivers.html" target="_blank">HTML</a></td>
+</tr><tr><td>AN 543: Debugging Nios II Software Using the Lauterbach Debugger<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an543.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/altera-www/global/en_US/others/literature/an/lauterbach.zip" target="_blank">Design Files (.zip)</a></td>
+</tr><tr><td>AN 323: Using SignalTap II Embedded Logic Analyzers in SOPC Builder Systems<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an323.pdf" target="_blank">PDF</a><br>
+</td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 346: Using the Nios II Configuration Controller Reference Designs<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an346.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 350: Upgrading Nios Processor Systems to the Nios II Processor<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an350.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 417: Accelerating Functions with the C2H Compiler: Scatter-Gather DMA with Checksum<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an417.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 446: Debugging Nios II Systems with the SignalTap II Embedded Logic Analyzer<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an446.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/altera-www/global/en_US/others/literature/an/an446_signal_tap_test.zip">Design Files (.zip)</a></td>
+</tr><tr><td>AN 624: Debugging with System Console Over TCP/IP<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an624.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples/intellectual-property/embedded/nios-ii/exm-debug-sys-console-tcpip.html" target="_blank">HTML</a></td>
+</tr><tr><td>AN 595: Vectored Interrupt Controller Usage and Applications<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an595.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/altera-www/global/en_US/others/literature/an/an595_vic_collateral.zip">Design Files (.zip)</a></td>
+</tr><tr><td>AN 531: Reducing Power with Hardware Accelerators<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an531.pdf" target="_blank">PDF</a></td>
+<td style="text-align: center;">-</td>
+</tr><tr><td>AN 371: Automotive Graphics System Reference Design<br>
+</td>
+<td style="text-align: center;"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/an/an371.pdf" target="_blank">PDF</a></td>
+<td>-</td>
+</tr></tbody></table>
+</div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+        //document.getElementById("copyButton").addEventListener("click", function() {
+    	$('#comp-cbbf1ab4-aee5-425f-a5c1-6a0c3f16486e #copyButton').click(function(){
+   			copyToClipboardMsg(document.getElementById("copyTarget"),"msg");
+
+    		$(".share-container").next().hide(); //hide share-container
+			$(".share-container").hide();
+			$(".share-container").prev().removeClass('active'); //remove class on btn-share
+		});
+
+function copyToClipboardMsg(elem, msgElem) {
+	  var succeed = copyToClipboard(elem);
+    var msg;
+    if (!succeed) {
+        msg = "Copy not supported or blocked.  Press Ctrl+c to copy."
+    } else {
+        msg = "Text copied to the clipboard."
+    }
+
+    alert(msg);
+}
+
+function copyToClipboard(elem) {
+	  // create hidden text element, if it doesn't already exist
+    var targetId = "_hiddenCopyText_";
+    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var origSelectionStart, origSelectionEnd;
+    if (isInput) {
+        // can just use the original source element for the selection and copy
+        target = elem;
+        origSelectionStart = elem.selectionStart;
+        origSelectionEnd = elem.selectionEnd;
+    } else {
+        // must use a temporary form element for the selection and copy
+        target = document.getElementById(targetId);
+        if (!target) {
+            var target = document.createElement("textarea");
+            target.style.position = "absolute";
+            target.style.left = "-9999px";
+            target.style.top = "0";
+            target.id = targetId;
+            document.body.appendChild(target);
+        }
+        target.textContent = elem.textContent;
+    }
+    // select the content
+    var currentFocus = document.activeElement;
+    target.focus();
+    target.setSelectionRange(0, target.value.length);
+
+    // copy the selection
+    var succeed;
+    try {
+    	  succeed = document.execCommand("copy");
+    } catch(e) {
+        succeed = false;
+    }
+    // restore original focus
+    if (currentFocus && typeof currentFocus.focus === "function") {
+        currentFocus.focus();
+    }
+
+    if (isInput) {
+        // restore prior selection
+        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+    } else {
+        // clear temporary content
+        target.textContent = "";
+    }
+    return succeed;
+}
+</script>
+
+</div>
+
+
+    
+    
+    
+    <div class="table parbase"><div class="altera-table container">
+<div class="table-title"><h2>Legacy White Papers</h2></div><div class="table-wrapper top-padding bottom-padding">
+        <div class="table-content table-responsive " id="comp-7019e3bf-7eed-490b-8da8-c655785dc798">
+        <input type="hidden" id="keywords_text" value="" />
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="1">
+<tbody><tr><td width="25%">Title</td>
+<td>Details</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01037.pdf" target="_blank">A Flexible Solution for Industrial Ethernet</a>&nbsp;(PDF)<br>
+</td>
+<td>This white paper describes the use of Intel FPGAs to deliver a multistandard Industrial Ethernet capability from a single PCB implementation.&nbsp;<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01077-energy-aware-appliance-platform.pdf" target="_blank">The &quot;Energy Aware&quot; Appliance Platform</a>&nbsp;(PDF)<br>
+</td>
+<td>These solutions allow homeowners to monitor appliance energy use via a home area network, appliance manufacturers to provide improved service to customers, and utility companies to lower energy consumption via the Internet.<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01083-cost-effective-hmi-home-appliances.pdf" target="_blank">Implementing a Cost-Effective Human-Machine Interface for Home Appliances</a>&nbsp;(PDF)<br>
+</td>
+<td>This paper explores these technologies, as well as Altera, Altia, and Echelon’s innovative, total-solution architecture for delivering low-cost, high-performance HMIs on virtually any home appliance or consumer device.<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01107-stitch-fisheye-images.pdf" target="_blank">Generating Panoramic Views by Stitching Multiple Fisheye Images</a>&nbsp;(PDF)<br>
+</td>
+<td>This white paper discusses an innovative architecture developed by Altera and Manipal Dot Net to generate panoramic views by stitching multiple fisheye images on an FPGA. This architecture provides a complete view of a vehicle’s surroundings to the driver and makes it easier to control and navigate the vehicle.<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01100-graphic-lcd-display.pdf" target="_blank">Using FPGAs to Render Graphics and Drive LCD Interfaces</a>&nbsp;(PDF)<br>
+</td>
+<td>This paper describes the use of FPGAs to add a LCD and GUI display to any embedded system.&nbsp;<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01073-flexible-architecture-fisheye-correction-automotive-rear-view-cameras.pdf" target="_blank">A Flexible Architecture for Fisheye Correction in Automotive Rear-View Cameras</a>&nbsp;(PDF)<br>
+</td>
+<td>This paper discusses an innovative architecture developed by Intel and Manipal Dot Net (MDN) to perform fisheye correction on a FPGA when basic camera parameters are known.<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01074-creating-low-cost-intelligent-display-modules-with-fpga.pdf" target="_blank">Creating Low-Cost Intelligent Display Modules with an FPGA and Embedded Processor</a>&nbsp;(PDF)<br>
+</td>
+<td>LCDs are fast becoming a standard part of the automotive interior. As demand for LCD technology increases, so do methodologies for controlling and creating the displayed graphical content. Traditionally, character-based LCDs and vacuum florescent (VF) displays have been used for low-cost automotive infotainment applications, but low-cost color thin film transistors (TFTs) quickly are becoming a bright alternative.<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp_qrd.pdf" target="_blank">Implementation of CORDIC-Based QRD-RLS Algorithm on Altera Stratix FPGA with Embedded Nios Soft Processor Technology</a>&nbsp;(PDF)<br>
+</td>
+<td>This white paper describes the implementation of the QR decomposition-based recursive least squares (RLS) algorithm on Intel's Stratix FPGAs.&nbsp;<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp_use_of_pld_as_cp5.pdf" target="_blank">Increase Bandwidth in Medical &amp; Industrial Applications with FPGA Co-Processors</a>&nbsp;(PDF)<br>
+</td>
+<td>The purpose of this white paper is to discuss the general issues of moving part, or all, of a DSP application onto a PLD using Intel's DSP Builder and SOPC Builder system software design tools.<br>
+</td>
+</tr><tr><td><p><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-aghrdwr.pdf" target="_blank">Automated Generation of Hardware Accelerators with Direct Memory Access</a>&nbsp;(PDF)</p>
+<p><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-aghrdwr.pdf" target="_blank">From ANSI/ISO Standard C Functions</a>&nbsp;<br>
+</p>
+</td>
+<td>Traditionally, the problem of generating stand-alone hardware modules has been addressed by C-to-gates methodologies. A very different approach is to generate coprocessors that off-load and enhance performance of a microprocessor running software written in C.&nbsp; An implementation of this methodology is possible only with a supporting ecosystem of tools, which will be demonstrated in this paper.&nbsp;<br>
+</td>
+</tr><tr><td><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-aab090805.pdf">Optimize System Flexibility by Integrating Custom Microprocessors into FPGAs</a> (PDF)<br>
+</td>
+<td>This paper documents two examples of first-time Nios II processor users who initially chose Intel's soft-core processors to overcome the inflexibility of COTS microprocessors and microcontrollers.&nbsp;<br>
+</td>
+</tr><tr><td width="30%"><a href="https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/wp/wp-01112-hw-reduce-power.pdf" target="_blank">Adding Hardware Accelerators to Reduce Power in Embedded Systems</a>&nbsp;(PDF)<br>
+</td>
+<td>This white paper discusses how not all functions are equally suited to trading circuits for frequency. Functions that operate in parallel run much faster when hardware is available to execute several steps simultaneously, which translates into greater performance for a given clock speed, but also into lower clock speed for a given performance level. Thus, the addition of hardware to a chip design can lower power demands while maintaining performance.<br>
+</td>
+</tr></tbody></table>
+</div>
+    </div>
+    </div>
+
+
+<script type="text/javascript">
+        //document.getElementById("copyButton").addEventListener("click", function() {
+    	$('#comp-7019e3bf-7eed-490b-8da8-c655785dc798 #copyButton').click(function(){
+   			copyToClipboardMsg(document.getElementById("copyTarget"),"msg");
+
+    		$(".share-container").next().hide(); //hide share-container
+			$(".share-container").hide();
+			$(".share-container").prev().removeClass('active'); //remove class on btn-share
+		});
+
+function copyToClipboardMsg(elem, msgElem) {
+	  var succeed = copyToClipboard(elem);
+    var msg;
+    if (!succeed) {
+        msg = "Copy not supported or blocked.  Press Ctrl+c to copy."
+    } else {
+        msg = "Text copied to the clipboard."
+    }
+
+    alert(msg);
+}
+
+function copyToClipboard(elem) {
+	  // create hidden text element, if it doesn't already exist
+    var targetId = "_hiddenCopyText_";
+    var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+    var origSelectionStart, origSelectionEnd;
+    if (isInput) {
+        // can just use the original source element for the selection and copy
+        target = elem;
+        origSelectionStart = elem.selectionStart;
+        origSelectionEnd = elem.selectionEnd;
+    } else {
+        // must use a temporary form element for the selection and copy
+        target = document.getElementById(targetId);
+        if (!target) {
+            var target = document.createElement("textarea");
+            target.style.position = "absolute";
+            target.style.left = "-9999px";
+            target.style.top = "0";
+            target.id = targetId;
+            document.body.appendChild(target);
+        }
+        target.textContent = elem.textContent;
+    }
+    // select the content
+    var currentFocus = document.activeElement;
+    target.focus();
+    target.setSelectionRange(0, target.value.length);
+
+    // copy the selection
+    var succeed;
+    try {
+    	  succeed = document.execCommand("copy");
+    } catch(e) {
+        succeed = false;
+    }
+    // restore original focus
+    if (currentFocus && typeof currentFocus.focus === "function") {
+        currentFocus.focus();
+    }
+
+    if (isInput) {
+        // restore prior selection
+        elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+    } else {
+        // clear temporary content
+        target.textContent = "";
+    }
+    return succeed;
+}
+</script>
+
+</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		
+	</div>
+</div></div>
+<div class="text-media parbase">
+
+
+
+<div class=" theme-white theme-dark-text">
+	<div class="container -container">
+		<div class="txt-media-wrapper top-padding bottom-padding  row section-content multimedia-on-left   text-media-text-only">
+			
+
+
+
+
+
+    <section class='text-media-item txt-media-content-wrapper-left text-media-content article-section col-md-12  '>
+        
+
+
+
+
+
+	<header class="txt-multimedia-hd" title="Additional Resources">
+		
+				<h2 class="txt-media-title content-title ">Additional Resources</h2>
+		
+
+		
+	</header>
+
+        <div class="txt-multimedia-content">
+        <div> </div>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/products/programmable/processor/nios-ii/design-tools.html" target="_blank">Nios II Embedded Design Suite</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-guidance/embedded-software-developer.html" target="_blank">Embedded Software Developer Center</a></li>
+<li><a href="https://fpgacloud.intel.com/devstore/" target="_blank">Design Store</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/support-resources/design-examples.html" target="_blank">Design Examples</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/products/boards_and_kits/all-development-kits.html" target="_blank">Intel FPGA Development Kits</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/support/literature/dc/lit-design-contest.html" target="_blank">Nios II Embedded Processor Design Contest</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/programmable/products/boards_and_kits/dev-kits/partners/max-10-neek.html" target="_blank">MAX 10 Nios II Embedded Evaluaiton Kit</a></li>
+</ul>
+
+</div>
+        
+
+
+    </section>
+
+		</div>
+		
+	</div>
+</div></div>
+
+</div>
+</div><!--  end of main-content -->
+</div> <!--mainWrapper-->
+
+<!--googleoff:all-->
+    <!--IGHF Footer--> 
+<!--GAATversion='50recode.2' date='10/02/2017 08:00:00' Version='2.0':CharacterEncoding:utf8--> 
+<div id="recode50footer"></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+INTELNAV = window.INTELNAV || {}; INTELNAV.renderSettingsFooter={version:"2.0 - 10/02/2017 08:00:00",OutputId:"gf_default"};
+/*]]>*/</script> 
+<noscript><div id="smallfootprint-footer"><ul><li>©Intel Corporation</li><li><a href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html" target="">Terms of Use</a></li><li><a href="https://www.intel.com/content/www/us/en/legal/trademarks.html" target="">*Trademarks</a></li><li><a href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html" target="">Privacy</a></li><li><a href="https://www.intel.com/content/www/us/en/privacy/intel-cookie-notice.html" target="">Cookies</a></li><li><a href="https://www.intel.com/content/www/us/en/policy/policy-human-trafficking-and-slavery.html" target="">Supply Chain Transparency </a></li><li><a href="https://www.intel.com/content/www/us/en/siteindex.html" target="">Site Map</a></li></ul></div></noscript>
+<!--/IGHF Footer-->
+    <!--googleon:all--><script type="text/javascript" src="/etc/clientlibs/altera-www/comps.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/altera-www/components.min.js"></script>
+<script type="text/javascript" src="/content/dam/altera-www/global/en_US/scripts/js/analytics/google_analytics.js"></script>
+	<script type="text/javascript" src="/content/dam/altera-www/global/en_US/scripts/js/analytics/auto-tracker.js"></script>
+</body>
+
+</html>

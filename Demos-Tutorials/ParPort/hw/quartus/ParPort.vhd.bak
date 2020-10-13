@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+Entity ParallelPort Is
+	Port(
+		Clk			: IN 		std_logic;
+		nReset		: IN		std_logic;
+		Address		: IN		std_logic_vector (2 DOWNTO 0);

@@ -1,0 +1,25 @@
+-- Design of a simple parallel port
+-- Avalon slave unit
+-- Parallel Port with programmable direction bit by bit on 8 bits
+--
+-- 3 address:
+-- 0: data
+-- 1: direction 0: input (reset state), 1: output
+-- 2: read data pin Read only
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;
+ENTITY Avalon_SGPIO IS
+ PORT(
+ Clk : IN std_logic;
+ nReset : IN std_logic;
+ CS : IN std_logic;
+ Rd : IN std_logic;
+ Wr : IN std_logic;
+ RDData : OUT std_logic_vector (7 DOWNTO 0);
+ WRData : IN std_logic_vector (7 DOWNTO 0);
+ Adr : IN std_logic_vector (1 DOWNTO 0);
+ PortP : INOUT std_logic_vector (7 DOWNTO 0)
+);
+END Avalon_SGPIO ; 

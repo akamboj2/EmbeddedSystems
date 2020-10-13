@@ -1,0 +1,9 @@
+	component system is
+		port (
+			clk_clk                                : in  std_logic                    := 'X'; -- clk
+			pio_0_external_connection_export       : out std_logic_vector(7 downto 0);        -- export
+			pwm_0_conduit_end_writeresponsevalid_n : out std_logic;                           -- writeresponsevalid_n
+			reset_reset_n                          : in  std_logic                    := 'X'  -- reset_n
+		);
+	end component system;
+

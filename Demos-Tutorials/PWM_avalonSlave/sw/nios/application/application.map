@@ -1,0 +1,1281 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+                              obj/default/pwm_servo.o (__fixunsdfsi)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                              obj/default/pwm_servo.o (__divsi3)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o) (__gedf2)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+                              obj/default/pwm_servo.o (__muldf3)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o) (__subdf3)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o) (__fixdfsi)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+                              obj/default/pwm_servo.o (__floatunsidf)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o) (__clzsi2)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o) (__clz_tab)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o (alt_load)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o (alt_main)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_epcs_flash_init)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (epcs_sector_erase)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (close)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (alt_flash_dev_list)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o) (alt_avalon_spi_command)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o) (alt_find_dev)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o) (memcmp)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000020000 0x0000000000000020
+onchip_memory2_0 0x0000000000020020 0x000000000001ffe0
+epcs_flash_controller_0 0x0000000000041000 0x0000000000000800
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/pwm_servo.o
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+LOAD C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+                0x0000000000020000                __alt_mem_onchip_memory2_0 = 0x20000
+                0x0000000000041000                __alt_mem_epcs_flash_controller_0 = 0x41000
+
+.entry          0x0000000000020000       0x20
+ *(.entry)
+ .entry         0x0000000000020000       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+                0x0000000000020000                __reset
+
+.exceptions     0x0000000000020020      0x224
+                0x0000000000020020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0xd4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x00000000000201d0       0x74 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000201d0                alt_instruction_exception_entry
+                0x0000000000020244                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000020244     0x4c98
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020244       0x4c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+                0x0000000000020244                _start
+ .text          0x0000000000020290      0x16c obj/default/pwm_servo.o
+                0x0000000000020290                generate_pwm
+                0x0000000000020364                main
+ .text          0x00000000000203fc       0x74 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+                0x00000000000203fc                __fixunsdfsi
+ .text          0x0000000000020470      0x1b4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x0000000000020470                __divsi3
+                0x00000000000204f4                __modsi3
+                0x0000000000020568                __udivsi3
+                0x00000000000205cc                __umodsi3
+ .text          0x0000000000020624       0xdc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+                0x0000000000020624                __gedf2
+                0x0000000000020624                __gtdf2
+ .text          0x0000000000020700      0x718 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+                0x0000000000020700                __muldf3
+ .text          0x0000000000020e18      0x8fc c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+                0x0000000000020e18                __subdf3
+ .text          0x0000000000021714       0x80 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                0x0000000000021714                __fixdfsi
+ .text          0x0000000000021794       0xa8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+                0x0000000000021794                __floatunsidf
+ .text          0x000000000002183c       0x64 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                0x000000000002183c                __clzsi2
+ .text          0x00000000000218a0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .text          0x00000000000218a0       0xec C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000021908                alt_load
+ .text          0x000000000002198c       0x7c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000002198c                alt_main
+ .text          0x0000000000021a08       0xc0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000021a3c                alt_irq_init
+                0x0000000000021a74                alt_sys_init
+ .text          0x0000000000021ac8      0xafc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                0x0000000000021afc                alt_epcs_flash_init
+                0x0000000000022034                alt_epcs_flash_write
+                0x0000000000022294                alt_epcs_flash_get_info
+                0x00000000000223b4                alt_epcs_flash_erase_block
+                0x000000000002242c                alt_epcs_flash_write_block
+                0x000000000002252c                alt_epcs_flash_read
+ .text          0x00000000000225c4      0x164 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000000225c4                altera_avalon_jtag_uart_read_fd
+                0x0000000000022624                altera_avalon_jtag_uart_write_fd
+                0x0000000000022684                altera_avalon_jtag_uart_close_fd
+                0x00000000000226d4                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x0000000000022728      0x3d4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x0000000000022728                altera_avalon_jtag_uart_init
+                0x0000000000022a94                altera_avalon_jtag_uart_close
+ .text          0x0000000000022afc       0xf0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000000022afc                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000022bec      0x21c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000022bec                altera_avalon_jtag_uart_read
+ .text          0x0000000000022e08      0x224 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000022e08                altera_avalon_jtag_uart_write
+ .text          0x000000000002302c      0x63c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+                0x000000000002302c                epcs_read_status_register
+                0x00000000000230fc                epcs_sector_erase
+                0x00000000000231f8                epcs_read_buffer
+                0x00000000000232ec                epcs_write_enable
+                0x0000000000023340                epcs_write_status_register
+                0x00000000000233ac                epcs_write_buffer
+                0x00000000000234c8                epcs_read_electronic_signature
+                0x0000000000023530                epcs_read_device_id
+                0x00000000000235b0                epcs_enter_4_bytes_mode
+                0x000000000002360c                epcs_exit_4_bytes_mode
+ .text          0x0000000000023668      0x12c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x0000000000023668                alt_alarm_start
+ .text          0x0000000000023794      0x10c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+                0x00000000000237d0                close
+ .text          0x00000000000238a0       0x48 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000238a0                alt_dcache_flush_all
+ .text          0x00000000000238e8       0x2c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x0000000000023914       0xe0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000023950                alt_dev_llist_insert
+ .text          0x00000000000239f4       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000239f4                _do_ctors
+ .text          0x0000000000023a54       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000023a54                _do_dtors
+ .text          0x0000000000023ab4        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000023ab4       0xbc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x0000000000023ab4                alt_flash_open_dev
+                0x0000000000023b1c                alt_flash_close_dev
+ .text          0x0000000000023b70       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000023b70                alt_icache_flush_all
+ .text          0x0000000000023ba4      0x1b0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0000000000023ba4                alt_ic_isr_register
+                0x0000000000023bf4                alt_ic_irq_enable
+                0x0000000000023c7c                alt_ic_irq_disable
+                0x0000000000023d08                alt_ic_irq_enabled
+ .text          0x0000000000023d54       0xf0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000023d54                alt_iic_isr_register
+ .text          0x0000000000023e44      0x140 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000023f08                alt_io_redirect
+ .text          0x0000000000023f84        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000023f84        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000023f84        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000023f84      0x254 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000024084                open
+ .text          0x00000000000241d8       0x64 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00000000000241d8                alt_release_fd
+ .text          0x000000000002423c      0x1a4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+                0x000000000002423c                alt_alarm_stop
+                0x00000000000242d8                alt_tick
+ .text          0x00000000000243e0       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000243e0                altera_nios2_gen2_irq_init
+ .text          0x0000000000024404      0x1fc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                0x0000000000024404                alt_avalon_spi_command
+ .text          0x0000000000024600        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000024600       0x90 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000024600                alt_find_dev
+ .text          0x0000000000024690      0x108 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x0000000000024690                alt_find_file
+ .text          0x0000000000024798       0xa4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000024798                alt_get_fd
+ .text          0x000000000002483c       0x90 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x000000000002483c                alt_icache_flush
+ .text          0x00000000000248cc       0x9c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000248cc                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000024968        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000024968       0x14 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0000000000024968                atexit
+ .text          0x000000000002497c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x000000000002497c       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x000000000002497c                exit
+ .text          0x00000000000249b4        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x00000000000249b4        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x00000000000249b4        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000000249b4       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x00000000000249b4                memcmp
+ .text          0x0000000000024a30        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000024a30      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x0000000000024a30                memcpy
+ .text          0x0000000000024b78        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000024b78       0x98 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x0000000000024b78                strlen
+ .text          0x0000000000024c10        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000024c10      0x118 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x0000000000024c10                __register_exitproc
+ .text          0x0000000000024d28        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000024d28      0x180 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000024d28                __call_exitprocs
+ .text          0x0000000000024ea8       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000024ea8                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000024edc                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000024edc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0000000000024edc                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0000000000024edc                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0000000000024edc                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000024edc                . = ALIGN (0x4)
+
+.rodata         0x0000000000024edc      0x158
+                0x0000000000024edc                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000024edc                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000024edc      0x100 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+                0x0000000000024edc                __clz_tab
+ .rodata        0x0000000000024fdc       0x11 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x0000000000024fed        0x3 
+ .rodata        0x0000000000024ff0       0x31 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000025021        0x3 
+ .rodata        0x0000000000025024        0xa C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ *fill*         0x000000000002502e        0x2 
+ .rodata.str1.4
+                0x0000000000025030        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x0000000000025034                . = ALIGN (0x4)
+                0x0000000000025034                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000024edc                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000025034     0x172c load address 0x0000000000026760
+                0x0000000000025034                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000025034                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000025034        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000025034        0x0 obj/default/pwm_servo.o
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .data          0x0000000000025034        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .data          0x0000000000025034        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000025034        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000025034     0x112c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x0000000000026160        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000026160      0x1a8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000026160                alt_dev_null
+                0x0000000000026188                alt_fd_list
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000026308        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x0000000000026308        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x0000000000026308        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x0000000000026308        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000026308      0x424 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x000000000002672c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x000000000002672c        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000002e72c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000002672c       0x14 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000002672c                alt_fs_list
+                0x0000000000026734                alt_dev_list
+                0x000000000002673c                alt_max_fd
+ .sdata         0x0000000000026740        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000026740                alt_errno
+ .sdata         0x0000000000026744        0x8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                0x0000000000026744                alt_flash_dev_list
+ .sdata         0x000000000002674c        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x000000000002674c                alt_priority_mask
+ .sdata         0x0000000000026750        0x8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000026750                alt_alarm_list
+ .sdata._global_impure_ptr
+                0x0000000000026758        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000026758                _global_impure_ptr
+ .sdata._impure_ptr
+                0x000000000002675c        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x000000000002675c                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000026760                . = ALIGN (0x4)
+                0x0000000000026760                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000026760                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000026760                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000027e8c      0x120
+                0x0000000000027e8c                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000027e8c        0xc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000027e8c                alt_argc
+                0x0000000000027e90                alt_argv
+                0x0000000000027e94                alt_envp
+ .sbss          0x0000000000027e98        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000027e98                alt_irq_active
+ .sbss          0x0000000000027e9c        0x8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000027e9c                _alt_tick_rate
+                0x0000000000027ea0                _alt_nticks
+ .sbss          0x0000000000027ea4        0x4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000027ea4                alt_instruction_exception_handler
+ .sbss          0x0000000000027ea8        0x4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x0000000000027ea8                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000027eac        0x0 obj/default/pwm_servo.o
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000027eac        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000027eac        0x0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000027eac      0x100 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000027eac                alt_irq
+                0x0000000000027fac                . = ALIGN (0x4)
+                0x0000000000027fac                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2_0
+                0x0000000000027fac        0x0
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_start, ABSOLUTE (.))
+ *(.onchip_memory2_0 .onchip_memory2_0. onchip_memory2_0.*)
+                0x0000000000027fac                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_end, ABSOLUTE (.))
+                0x0000000000027fac                _end = ABSOLUTE (.)
+                0x0000000000027fac                end = ABSOLUTE (.)
+                0x0000000000027fac                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_onchip_memory2_0_load_addr, LOADADDR (.onchip_memory2_0))
+
+.epcs_flash_controller_0
+                0x0000000000041000        0x0 load address 0x0000000000027fac
+                [!provide]                        PROVIDE (_alt_partition_epcs_flash_controller_0_start, ABSOLUTE (.))
+ *(.epcs_flash_controller_0 .epcs_flash_controller_0. epcs_flash_controller_0.*)
+                0x0000000000041000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_epcs_flash_controller_0_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_epcs_flash_controller_0_load_addr, LOADADDR (.epcs_flash_controller_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/pwm_servo.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x750
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/pwm_servo.o
+ .debug_aranges
+                0x0000000000000048       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_aranges
+                0x0000000000000068       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000088       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x0000000000000128       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x0000000000000148       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000160       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000180       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000001c0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_aranges
+                0x00000000000001e0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000200       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000220       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000240       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000260       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000280       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_aranges
+                0x00000000000002a0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000000000002c0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000002e0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000300       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000320       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000340       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000360       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000380       0x18 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000398       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_aranges
+                0x00000000000003b8       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000003d8       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000003f8       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000418       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x0000000000000438       0x30 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000468       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000488       0x18 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x00000000000004a0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000000000004c0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000000000004e0       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x0000000000000500       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000520       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_aranges
+                0x0000000000000540       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000578       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000598       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000000000005d8       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000000000005f8       0x28 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000620       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000640       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000660       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000678       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000690       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000000000006b0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000000000006d0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000006f0       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x0000000000000710       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000730       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xa02a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x6e C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000006e      0x134 obj/default/pwm_servo.o
+ .debug_info    0x00000000000001a2       0xc7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_info    0x0000000000000269      0x2c6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_info    0x000000000000052f      0x202 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_info    0x0000000000000731      0x5f5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_info    0x0000000000000d26      0x4a2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_info    0x00000000000011c8      0x1ae c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000001376      0x1b0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_info    0x0000000000001526      0x124 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_info    0x000000000000164a       0xb2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_info    0x00000000000016fc      0x145 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000001841      0x131 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000001972      0x7ba C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000000000000212c      0x872 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_info    0x000000000000299e      0x52e C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000002ecc      0x3a0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x000000000000326c      0x280 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x00000000000034ec      0x345 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000003831      0x340 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000003b71      0x44f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_info    0x0000000000003fc0      0x2cc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x000000000000428c      0x321 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00000000000045ad       0xa5 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x0000000000004652      0x49c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000004aee      0x1a9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000004c97       0x83 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000004d1a       0x83 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x0000000000004d9d       0xa6 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000004e43      0x3d7 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_info    0x000000000000521a       0x92 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00000000000052ac      0x350 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00000000000055fc      0x1ef C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x00000000000057eb      0x4a5 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x0000000000005c90       0x77 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x0000000000005d07      0x187 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000005e8e       0x88 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000005f16      0x3bb C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00000000000062d1      0x2b0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000006581      0x299 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x000000000000681a       0x92 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000068ac      0x18d C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_info    0x0000000000006a39       0x7d C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000006ab6      0x2e9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x0000000000006d9f      0x2e6 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x0000000000007085      0x310 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000000000007395       0xdc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x0000000000007471      0x1e7 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000007658       0xfe c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000007756      0x8e4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x000000000000803a      0x8a1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x00000000000088db       0x8a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000008965      0x11a c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000008a7f      0x144 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000008bc3       0xe2 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000008ca5      0x934 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000095d9      0x965 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000009f3e       0xec C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x36f8
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0xa5 obj/default/pwm_servo.o
+ .debug_abbrev  0x00000000000000b7       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_abbrev  0x0000000000000117      0x10e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000000225      0x137 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_abbrev  0x000000000000035c      0x13f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_abbrev  0x000000000000049b      0x133 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_abbrev  0x00000000000005ce      0x135 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x0000000000000703      0x124 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x0000000000000827       0xbe c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00000000000008e5       0x5d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000000942       0x9f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000009e1       0xba C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000a9b      0x190 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000c2b      0x1c9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_abbrev  0x0000000000000df4      0x127 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000000f1b      0x19e C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000000000010b9      0x111 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x00000000000011ca      0x1aa C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000001374      0x1a8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000151c      0x169 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_abbrev  0x0000000000001685      0x162 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000000000017e7      0x11f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000001906       0x5a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001960       0xd9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001a39      0x114 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001b4d       0x79 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000001bc6       0x79 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000001c3f       0x5a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001c99      0x11a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_abbrev  0x0000000000001db3       0x42 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001df5      0x163 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001f58      0x169 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000000000020c1      0x114 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00000000000021d5       0x12 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000000000021e7      0x122 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000002309       0x40 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000002349      0x148 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x0000000000002491       0xde C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000000000000256f      0x15a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x00000000000026c9       0x42 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000270b       0x8a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_abbrev  0x0000000000002795       0x12 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000000000027a7       0xf0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x0000000000002897       0xf0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x0000000000002987      0x10d C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000000000002a94       0x8c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000002b20       0xdc C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000002bfc       0xaa c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000002ca6      0x1e5 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000002e8b      0x18f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000301a       0x37 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000003051       0x7f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00000000000030d0       0xa3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000003173       0x90 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000003203      0x21e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000003421      0x22e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x000000000000364f       0xa9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x3a48
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x177 obj/default/pwm_servo.o
+ .debug_line    0x00000000000001e9       0x6b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_line    0x0000000000000254      0x102 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000000356       0xcb c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_line    0x0000000000000421      0x1e3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_line    0x0000000000000604      0x3a8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_line    0x00000000000009ac       0x98 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_line    0x0000000000000a44       0x92 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_line    0x0000000000000ad6       0xb7 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000000b8d       0x53 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_line    0x0000000000000be0       0x8e C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000c6e       0xa4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000d12      0x188 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000e9a      0x2d3 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_line    0x000000000000116d      0x12f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x000000000000129c      0x18b C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x0000000000001427      0x131 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x0000000000001558      0x171 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000016c9      0x170 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000001839      0x113 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_line    0x000000000000194c       0xf9 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000001a45      0x165 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000001baa       0x61 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001c0b       0xf8 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000001d03       0xcf C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000001dd2       0x59 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000001e2b       0x59 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000001e84       0x51 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000001ed5       0xde C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_line    0x0000000000001fb3       0x50 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000002003       0xeb C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000020ee       0xdb C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000021c9      0x133 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00000000000022fc       0x6b C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000002367       0xaa C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000002411       0x50 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000002461      0x128 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000002589       0xae C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000002637       0xff C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000002736       0x51 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000002787       0xb7 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_line    0x000000000000283e       0xb3 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00000000000028f1       0xb5 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00000000000029a6       0xd1 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x0000000000002a77       0xd4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000000000002b4b       0x81 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000002bcc       0xba C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000002c86       0xe4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000002d6a      0x1f9 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x0000000000002f63      0x15d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x00000000000030c0       0x5c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x000000000000311c      0x173 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x000000000000328f      0x189 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000003418      0x16c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000003584      0x21c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x00000000000037a0      0x237 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x00000000000039d7       0x71 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000     0x109c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x54 obj/default/pwm_servo.o
+ .debug_frame   0x0000000000000054       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x000000000000008c       0x50 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000000dc       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_frame   0x00000000000000fc       0x58 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000154       0x44 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_frame   0x0000000000000198       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_frame   0x00000000000001b8       0x34 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_frame   0x00000000000001ec       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_frame   0x000000000000020c       0x5c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000268       0x2c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000294       0x88 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000031c      0x198 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+ .debug_frame   0x00000000000004b4       0xb0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000564       0xa4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x0000000000000608       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x000000000000063c       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000674       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000006ac      0x1f0 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+ .debug_frame   0x000000000000089c       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000000000008d0       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x0000000000000930       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000964       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000998       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000009f8       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x0000000000000a30       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x0000000000000a68       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+ .debug_frame   0x0000000000000ac8       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000b00       0xa4 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000ba4       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000bdc       0x60 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000c3c       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000c74       0x84 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000000cf8       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000d2c       0x5c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000d88       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000dbc       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+ .debug_frame   0x0000000000000df0       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000000e28       0x38 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x0000000000000e60       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000e94       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000ec8       0x5c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000f24       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000f44       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000f6c       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000f8c       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000fc4       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000fe4       0x38 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000000000000101c       0x54 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000001070       0x2c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x25b3
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x12f obj/default/pwm_servo.o
+                                        0x184 (size before relaxing)
+ .debug_str     0x000000000000012f      0x148 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+                                        0x1d1 (size before relaxing)
+ .debug_str     0x0000000000000277       0x7c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x00000000000002f3       0xa3 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+                                        0x219 (size before relaxing)
+ .debug_str     0x0000000000000396      0x1de c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+                                        0x3a8 (size before relaxing)
+ .debug_str     0x0000000000000574       0xb1 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+                                        0x28f (size before relaxing)
+ .debug_str     0x0000000000000625       0x4b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+                                        0x211 (size before relaxing)
+ .debug_str     0x0000000000000670       0x6d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+                                        0x225 (size before relaxing)
+ .debug_str     0x00000000000006dd       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+                                        0x1e6 (size before relaxing)
+ .debug_str     0x00000000000006fd      0x1c9 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clz.o)
+ .debug_str     0x00000000000006fd      0x12b C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x20f (size before relaxing)
+ .debug_str     0x0000000000000828       0x70 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x19a (size before relaxing)
+ .debug_str     0x0000000000000898      0x312 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x505 (size before relaxing)
+ .debug_str     0x0000000000000baa      0x220 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_epcs_flash_controller.o)
+                                        0x558 (size before relaxing)
+ .debug_str     0x0000000000000dca       0xb2 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3a1 (size before relaxing)
+ .debug_str     0x0000000000000e7c       0xd1 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x335 (size before relaxing)
+ .debug_str     0x0000000000000f4d       0x4a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x290 (size before relaxing)
+ .debug_str     0x0000000000000f97       0x7f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2e5 (size before relaxing)
+ .debug_str     0x0000000000001016       0x4a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x2e6 (size before relaxing)
+ .debug_str     0x0000000000001060      0x178 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(epcs_commands.o)
+                                        0x2dc (size before relaxing)
+ .debug_str     0x00000000000011d8       0x59 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x27b (size before relaxing)
+ .debug_str     0x0000000000001231       0x44 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x208 (size before relaxing)
+ .debug_str     0x0000000000001275       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x152 (size before relaxing)
+ .debug_str     0x00000000000012a9      0x119 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x302 (size before relaxing)
+ .debug_str     0x00000000000013c2       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1c9 (size before relaxing)
+ .debug_str     0x00000000000013f6       0x48 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xcd (size before relaxing)
+ .debug_str     0x000000000000143e       0x4c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xcc (size before relaxing)
+ .debug_str     0x000000000000148a       0x14 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x142 (size before relaxing)
+ .debug_str     0x000000000000149e       0x3f C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_flash_dev.o)
+                                        0x308 (size before relaxing)
+ .debug_str     0x00000000000014dd       0x34 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x152 (size before relaxing)
+ .debug_str     0x0000000000001511       0xbd C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x23b (size before relaxing)
+ .debug_str     0x00000000000015ce       0x4c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1e5 (size before relaxing)
+ .debug_str     0x000000000000161a       0x56 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x313 (size before relaxing)
+ .debug_str     0x0000000000001670       0x3a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x194 (size before relaxing)
+ .debug_str     0x00000000000016aa       0x17 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x137 (size before relaxing)
+ .debug_str     0x00000000000016c1       0x29 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x248 (size before relaxing)
+ .debug_str     0x00000000000016ea       0x28 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1d0 (size before relaxing)
+ .debug_str     0x0000000000001712       0x4a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x24f (size before relaxing)
+ .debug_str     0x000000000000175c       0x3b C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x159 (size before relaxing)
+ .debug_str     0x0000000000001797       0xa5 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_spi.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x000000000000183c       0x24 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1e9 (size before relaxing)
+ .debug_str     0x0000000000001860       0x26 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x1f7 (size before relaxing)
+ .debug_str     0x0000000000001886       0x30 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x219 (size before relaxing)
+ .debug_str     0x00000000000018b6       0x2c C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x158 (size before relaxing)
+ .debug_str     0x00000000000018e2      0x48b C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x59d (size before relaxing)
+ .debug_str     0x0000000000001d6d      0x162 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000001ecf      0x3a4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x5a4 (size before relaxing)
+ .debug_str     0x0000000000002273       0xc8 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x59b (size before relaxing)
+ .debug_str     0x000000000000233b       0x3c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                        0x1c3 (size before relaxing)
+ .debug_str     0x0000000000002377       0xbe c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                        0x1ca (size before relaxing)
+ .debug_str     0x0000000000002435       0x68 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x000000000000249d       0x4e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x00000000000024eb       0x3c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x5dc (size before relaxing)
+ .debug_str     0x0000000000002527       0x62 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x5c8 (size before relaxing)
+ .debug_str     0x0000000000002589       0x2a C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x14e (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x36bd
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_fixunsdfsi.o)
+ .debug_loc     0x0000000000000028      0x4ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x00000000000004f6       0xf9 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_loc     0x00000000000005ef     0x100d c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_loc     0x00000000000015fc     0x1627 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_loc     0x0000000000002c23      0x121 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_loc     0x0000000000002d44      0x19e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_loc     0x0000000000002ee2       0x6b c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_loc     0x0000000000002f4d       0x2c c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000002f79       0x1e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000002f97      0x126 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000000000030bd      0x266 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x0000000000003323       0x47 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x000000000000336a      0x185 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x00000000000034ef      0x1ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+                0x0000000000040000                __alt_data_end = 0x40000
+                0x0000000000040000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x40000)
+OUTPUT(application.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x718
+ .debug_ranges  0x0000000000000000       0x20 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_ranges  0x0000000000000080       0x88 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(gedf2.o)
+ .debug_ranges  0x0000000000000108      0x1f0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(muldf3.o)
+ .debug_ranges  0x00000000000002f8      0x268 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(subdf3.o)
+ .debug_ranges  0x0000000000000560       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(fixdfsi.o)
+ .debug_ranges  0x0000000000000590       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(floatunsidf.o)
+ .debug_ranges  0x00000000000005a8       0x18 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(_clzsi2.o)
+ .debug_ranges  0x00000000000005c0       0x30 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x00000000000005f0       0x18 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000608       0x28 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000630       0x10 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000640       0x30 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000670       0x18 C:/intelFPGA_lite/PWM_avalonSlave/sw/nios/application_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000688       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000698       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_ranges  0x00000000000006a8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x00000000000006b8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x00000000000006c8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x00000000000006d8       0x10 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x00000000000006e8       0x30 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)

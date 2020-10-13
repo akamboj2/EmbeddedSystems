@@ -1,0 +1,20 @@
+C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity camera
+-- Compiling architecture rtl of camera
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(141): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(143): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(145): String literal has a character ' ' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(145): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(147): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+** Warning: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(145): (vcom-1272) Length of expected is 2; length of actual is 4.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(145): (vcom-1319) Case statement choice (string literal) length 1 is not equal to required length 2.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(140): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+** Warning: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(150): (vcom-1272) Length of expected is 32; length of actual is 2.
+** Error: C:/intelFPGA_lite/lab_4_project_template/hw/hdl/camera.vhd(172): VHDL Compiler exiting
+
+} {9.0 14.0 15.0 17.0 18.0 19.0} {}}

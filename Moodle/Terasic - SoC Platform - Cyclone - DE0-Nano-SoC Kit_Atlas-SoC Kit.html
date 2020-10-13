@@ -1,0 +1,867 @@
+
+		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+		<html>
+		<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Expires" content="Fri, Jun 12 1981 08:20:00 GMT" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Cache-Control" content="no-cache" />
+		<meta name="image" content="https://www.terasic.com.tw/attachment/archive/941/image/__thumb__.gif" />
+		<meta property="og:image" content="https://www.terasic.com.tw/attachment/archive/941/image/__thumb__.gif" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="- Cyclone V SoC with Dual-core ARM Cortex-A9 (HPS)
+ - 1GB DDR3 SDRAM (32-bit data bus)(HPS)
+ - Arduino Expansion Header (Uno R3 Compatibility), UART-to-USB, USB OTG Port, Micro SD Card Socket,&nbsp;Gigabit
+ &nbsp;Ethernet and GPIO Headers" />
+		<meta name="rating" content="general" />
+		<meta name="author" content="Terasic Technologies" />
+		<meta name="copyright" content="Copyright &copy; 2001-2005" />
+		<meta name="generator" content="Terasic" />
+		<title>Terasic -  SoC Platform - Cyclone - DE0-Nano-SoC Kit/Atlas-SoC Kit</title>
+	
+		<!--jQuery-->
+		<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery/jquery-1.5.2.min.js"></script>
+		<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-ui/1.8.16/js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/fancyBox/source/jquery.fancybox.pack.js?v=2.0.4"></script>
+		<link rel="stylesheet" href="https://www.terasic.com.tw/extra/jquery-ui/1.8.16/css/black-tie/jquery-ui-1.8.16.custom.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="https://www.terasic.com.tw/extra/jquery-plugin/fancyBox/source/jquery.fancybox.css?v=2.0.4" type="text/css" media="all" />
+	
+		<style type="text/css">
+		<!--
+			a{color:#990000;text-decoration:none;list-style-type:none}
+			a:hover{color:#FF0000;text-decoration:underline;list-style-type:none}
+		-->
+		</style>
+	
+
+<!--jQuery Plugin-->
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/lavalamp-0.2/jquery.easing.min.js"></script>
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/lavalamp-0.2/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/seekAttention/seekAttention.js"></script>
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/badger/badger.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.terasic.com.tw/extra/jquery-plugin/badger/badger.min.css" />
+<script type="text/javascript" src="https://www.terasic.com.tw/extra/jquery-plugin/qTip2/jquery.qtip.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.terasic.com.tw/extra/jquery-plugin/qTip2/jquery.qtip.min.css" />
+
+<!--Common Script-->
+<script type="text/javascript" src="https://www.terasic.com.tw/res/javascript/common.js"></script>
+<script type="text/javascript" src="https://www.terasic.com.tw/theme/2012/javascript/common.js"></script>
+
+
+	
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-1138691-2']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+		})();
+	</script>
+
+
+
+<!--jQuery CSS-->
+<link rel="stylesheet" type="text/css" href="https://www.terasic.com.tw/extra/jquery-plugin/lavalamp-0.2/lavalamp.css" />
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" media="all" href="https://www.terasic.com.tw/theme/2012/css/default.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.terasic.com.tw/theme/2012/css/pure.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.terasic.com.tw/res/css/default.css" />
+
+<!--Page Script-->
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	// 框架檢查
+	if (top.location != document.location){	top.location.href = document.location.href;	}
+
+	// Top Menu
+	$(".TopMenu").hover(
+		function(){
+			$(this).attr('src','https://www.terasic.com.tw/theme/2012/images/menu/'+$(this).attr('ref')+'_on.jpg');
+		},
+		function(){
+			$(this).attr('src','https://www.terasic.com.tw/theme/2012/images/menu/'+$(this).attr('ref')+'.jpg');
+		}
+	);
+
+
+
+});
+
+// 更新購物數量
+function setCartCount( theCount, theProduct ){
+	if( theCount == '0' || theCount == '' ){
+		$("#CartCount").badger( '' );
+	}
+	else if( theProduct.length > 0 ){
+		$("#CartCount").badger( theCount );
+		$("#CartIcon").qtip({
+			content: {
+				text: "<ol>" + theProduct + "</ol><div align='center'><input type='button' class='Button ButtonSubmit' onclick=\"location.href='https://www.terasic.com.tw/cgi-bin/page/checkout.pl?Method=ViewCart&Language=English'\" value='Checkout'> <a href='https://www.terasic.com.tw/cgi-bin/page/checkout.pl?Method=ViewCart&Language=English' style='color:#FF9900'>or Request for Quote</a></div>",
+				title: {
+					text: 'Item added to cart',
+					button: true
+				}
+			},
+			position: {
+				my: 'top right', // 箭頭位置
+				at: 'bottom center' // 方塊位置
+			},
+			show: {
+				ready: true // 載入時自動顯示
+			},
+			hide: false,	// 自動關閉
+			style: {
+	        		classes: 'ui-tooltip-shadow ui-tooltip-youtube stickybox',
+	        		width: 280
+	        	}
+	        	
+	        });
+	}
+	else{
+		$("#CartCount").badger( theCount );
+		$("#CartIcon").qtip({
+			content: {
+				text: "<div align='center' style='color:#FFFFFF;font-weight:bold;'>Quantity is updated successfully</div><br/><div align='center'><input type='button' class='Button ButtonSubmit' onclick=\"location.href='https://www.terasic.com.tw/cgi-bin/page/checkout.pl?Method=ViewCart&Language=English'\" value='Checkout'> <a href='https://www.terasic.com.tw/cgi-bin/page/checkout.pl?Method=ViewCart&Language=English' style='color:#FF9900'>or Request for Quote</a></div>",
+				title: {
+					text: 'Shopping Cart',
+					button: true
+				}
+			},
+			position: {
+				my: 'top right', // 箭頭位置
+				at: 'bottom center' // 方塊位置
+			},
+			show: {
+				ready: true // 載入時自動顯示
+			},
+			hide: false,	// 自動關閉
+			style: {
+	        		classes: 'ui-tooltip-shadow ui-tooltip-youtube',
+	        		width: 280
+	        	}
+	        	
+	        });
+	}
+
+}
+</script>
+
+</head>
+
+<body>
+<div id="wrapper"><a name="top"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="https://www.terasic.com.tw/theme/2012/images/top_menu_02.jpg">
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_02.jpg">&nbsp;</td>
+    <td width="1003"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="135" valign="top" ><a href="/en"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_03.jpg" alt="" width="135" height="72" border="0" /></a></td>
+
+    
+    <td width="49" valign="top" ><a href="http://www.facebook.com/terasic"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_04.jpg" alt="" width="49" height="72" border="0" /></a></td>
+    <td width="49" valign="top" ><a href="http://twitter.com/Terasic_FPGA"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_05.jpg" alt="" width="49" height="72" border="0" /></a></td>
+    <td width="46" valign="top" ><a href="http://www.youtube.com/terasicTV"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_06.jpg" alt="" width="46" height="72" border="0" /></a></td>
+    
+    
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_02.jpg">&nbsp;</td>
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_02.jpg" width="299"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="4"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_08.jpg" alt="" width="299" height="33" /></td>
+      </tr>
+      <tr>
+        <td>
+        	
+				
+   	    	 		<a href="http://www.alteraforum.com/forum/forumdisplay.php?f=31"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_10.jpg" alt="" width="53" height="39" border="0" /></a>
+                
+            
+        </td>
+        <td><a href="https://www.terasic.com.tw/cgi-bin/page/member.pl?Language=English"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_11.jpg" alt="" width="58" height="39" border="0" /></a></td>
+        <td>
+			
+            	
+       		        <a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=12&No=20"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_12.jpg" alt="" width="86" height="39" border="0" /></a>
+		        
+                    
+        </td>
+        <td width="102" align="center">
+        <select onChange="if(this.value.length>0){location.href=this.value;}" style="height:20px;">
+			<option>Languages:</option>
+			<option value="/en/" style="color:#0000FF;">English</option>
+			<option value="/tw/" >繁體中文</option>
+			<option value="/cn/" >简体中文</option>
+		</select>
+        <!--
+        <select name="select" onChange="if(this.value.length&gt;0){location.href=this.value;}">
+          <option>Languages:</option>
+          <option value="/en/" style="color:#0000FF;">English</option>
+          <option value="/tw/" >繁體中文</option>
+          <option value="/cn/" >简体中文</option>
+        </select>-->
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+</table></td>
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_02.jpg">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr background="https://www.terasic.com.tw/theme/2012/images/top_menu_14.jpg">
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_14.jpg">&nbsp;</td>
+    <td width="1003"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+			<!--Menu-->
+				
+					<td><a id="menu11" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=11"><img class="TopMenu" ref="11" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/11.jpg" alt="Newsroom" height="36px"></a></td>
+				
+					<td><a id="menu12" href="/cgi-bin/page/archive.pl?Language=English&amp;No=464"><img class="TopMenu" ref="12" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/12.jpg" alt="About Terasic" height="36px"></a></td>
+				
+					<td><a id="menu17" href="    /cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple"><img class="TopMenu" ref="17" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/17.jpg" alt="Products" height="36px"></a></td>
+				
+					<td><a id="menu14" href="/cgi-bin/page/archive.pl?Language=English&amp;No=472"><img class="TopMenu" ref="14" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/14.jpg" alt="Turnkey Solutions" height="36px"></a></td>
+				
+					<td><a id="menu15" href="/cgi-bin/page/archive.pl?Language=English&amp;No=200"><img class="TopMenu" ref="15" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/15.jpg" alt="Training" height="36px"></a></td>
+				
+					<td><a id="menu16" href="/cgi-bin/page/archive.pl?Language=English&amp;No=462"><img class="TopMenu" ref="16" border="0" src="https://www.terasic.com.tw/theme/2012/images/menu/16.jpg" alt="FAQ" height="36px"></a></td>
+				
+			<!--/Menu-->
+        <td width="164" background="https://www.terasic.com.tw/theme/2012/images/top_menu_14.jpg" align="right"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_21.jpg" alt="" width="90" height="36" /></td>
+        <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_22.jpg" width="123" height="10" /></td>
+          </tr>
+				<form action="https://www.terasic.com.tw/cgi-bin/page/archive.pl" method="get" style="margin:0px;">
+				<input type="hidden" name="Method" id="Method" value="Search">
+				<input type="hidden" name="Language" id="Language" value="English">
+          <tr>
+            <td bgcolor="#f3f3f3">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="16"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_26.jpg" alt="" width="16" height="17" align="absmiddle" onClick="var form=this.form;if(form.Keyword.value=='' || form.Keyword.value=='search'){return false;}"/></td>
+                <td><input type="text" id="Keyword" name="Keyword" class="search" maxlength="85" value="search" onFocus="if(this.value=='search'){this.value=''}" onBlur="if(this.value==''){this.value='search'}" /></td>
+              </tr>
+            </table></td>
+          </tr>
+				</form>
+          <tr>
+            <td><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_28.jpg" width="123" height="9" /></td>
+          </tr>
+        </table></td>
+        <td><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_23.jpg" alt="" width="16" height="36" /></td>
+        <td><div style="position:relative;" id="CartCount"><a href="https://www.terasic.com.tw/cgi-bin/page/checkout.pl?Method=ViewCart&Language=English"><img src="https://www.terasic.com.tw/theme/2012/images/top_menu_24.jpg" id="CartIcon" title="Shopping Cart" alt="Cart" width="76" height="36" border="0" /></a></div></td>
+      </tr>
+    </table></td>
+    <td background="https://www.terasic.com.tw/theme/2012/images/top_menu_14.jpg">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>&nbsp;</td>
+    <td width="1003"><img src="https://www.terasic.com.tw/theme/2012/images/content_banner01.jpg" alt="" width="1003" height="110"></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="1003">
+    <div style="width:1002px;margin-top:3px;margin-bottom:3px;background:#e3e3e3;border:1px solid #d9d9d9;">
+    	<!--Position-->
+						<div class="position">
+						
+							
+								<a name="section" href="/en/"><img src="https://www.terasic.com.tw/theme/2012/images/path_home.jpg" border="0" width="46" height="25" align="absmiddle"></a>
+							
+						
+						<span><img src="https://www.terasic.com.tw/theme/2012/images/path_arrow.jpg" width="28" height="25" align="absmiddle"></span>
+						
+							
+								
+									<a href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=204"> SoC Platform</a> <span><img src="https://www.terasic.com.tw/theme/2012/images/path_arrow.jpg" width="28" height="25" align="absmiddle"></span>
+								
+						  
+								
+									<a href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=204#Category205">Cyclone</a> <span><img src="https://www.terasic.com.tw/theme/2012/images/path_arrow.jpg" width="28" height="25" align="absmiddle"></span>
+								
+						  
+						
+						DE0-Nano-SoC Kit/Atlas-SoC Kit
+		</div>
+						<!--/Position-->
+    </div>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+
+<table width="100%">
+<tr>
+<td></td>
+<td width="1003">
+<table id="frame" border="0" width="213" cellspacing="0" cellpadding="0" bgcolor="#f1f1f1">
+	<tr>
+		<td valign="top" align="left">
+
+			<!--Products Items-->
+			
+			<table id="ProdMenu" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td>
+						<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_title_en_01.jpg" style="margin-bottom:10px;">
+					</td>
+				</tr>
+				<tr>
+					<td style="background:#f1f1f1;">
+						
+							
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod163" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=163"> DE Main Boards</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod164" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=163#Category164"><font color="#333333">Stratix</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod231" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=163#Category231"><font color="#333333">Arria</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod165" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=163#Category165"><font color="#333333">Cyclone</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod234" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=163#Category234"><font color="#333333">MAX </font></a></div>
+									
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod204" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=204"> SoC Platform</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod39" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=204&amp;List=Simple#Category39"><font color="#333333">Stratix</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod205" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=204#Category205"><font color="#333333">Cyclone</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod216" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=216"><font color="#333333">Arria</font></a></div>
+									
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod162" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=162"> Bundle Solution</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod238" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=238"> Robotic Kits</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod13" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple"> All FPGA Main Boards</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod248" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category248"><font color="#333333">Stratix 10</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod158" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category158"><font color="#333333">Stratix V</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod138" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category138"><font color="#333333">Stratix IV</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod228" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category228"><font color="#333333">Arria 10</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod166" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category166"><font color="#333333">Arria V</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod253" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category253"><font color="#333333">Cyclone 10</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod167" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category167"><font color="#333333">Cyclone V</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod139" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category139"><font color="#333333">Cyclone IV</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod56" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category56"><font color="#333333">Cyclone III</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod53" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category53"><font color="#333333">Cyclone II</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod218" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple#Category218"><font color="#333333">MAX 10</font></a></div>
+									
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod65" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=65"> Daughter Cards</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod66" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category66"><font color="#333333">Multimedia</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod67" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category67"><font color="#333333">Interface Conversion</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod68" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category68"><font color="#333333">Video &amp; Image</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod71" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category71"><font color="#333333">Networking</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod73" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category73"><font color="#333333">AD/DA</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod149" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category149"><font color="#333333">Robotics/Motors</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod225" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=65#Category225"><font color="#333333">RF</font></a></div>
+									
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod74" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=74"> USB Blaster Cable</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod189" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=189"> Software</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod221" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=221"> Books</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod75" href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=75"> Accessories</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod76" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=75#Category76"><font color="#333333">Adapters</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod77" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=75#Category77"><font color="#333333">Cables</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod78" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=75#Category78"><font color="#333333">Extras</font></a></div>
+									
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod242" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=17&amp;No=842"> OpenPET</a></div>
+								
+						
+							<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_line.jpg" vspace="5">
+							<div><a style="margin-left:28px;font-weight:bold;" id="prod168" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=168"> Phased Out</a></div>
+								
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod183" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=168#Category183"><font color="#333333">Main Boards</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod184" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=168#Category184"><font color="#333333">Daughter Cards</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod222" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=168#Category222"><font color="#333333">Adapters</font></a></div>
+									
+										<div style="margin-left:24px;padding-left:15px;background:url('https://www.terasic.com.tw/theme/2012/images/side_arrow.jpg') no-repeat;background-position:5px;"><a id="prod245" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=168#Category245"><font color="#333333">Extras</font></a></div>
+									
+								
+						
+					</td>
+				</tr>
+			</table>
+			
+			<!--/Products Items-->
+
+			<!--Shopping Cart-->
+			<table id="Cart" border="0" cellpadding="0" cellspacing="0" width="191px" style="margin-top:20px;">
+				<!--tr>
+					<td>
+						<img border="0" src="https://www.terasic.com.tw/theme/2012/images/side_title_en_02.jpg">
+					</td>
+				</tr-->
+				<tr>
+					<td align="center">
+					<iframe id="CartFrame" name="CartFrame" width="0" height="0" allowtransparency="true" scrolling="auto" frameborder="0"></iframe>
+					</td>
+				</tr>
+			</table>
+			<!--/Shopping Cart-->
+
+			<!--Payment Logo-->
+			<div align="center">
+			
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fterasic&amp;width=180&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;show_border=true&amp;header=true&amp;appId=129623163760066" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:110px;" allowTransparency="true"></iframe>
+				<script type="text/javascript" src="https://trustseal.verisign.com/getseal?host_name=www.terasic.com.tw&amp;size=L&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=en"></script><br /><br /><br />
+				<a href="https://www.paypal.com/" target="_blank"><img src="https://www.terasic.com.tw/theme/2012/images/payment/paypal.png" border="0"></a><br /><br />
+			
+			</div>
+			<!--/Payment Logo-->
+
+		</td>
+		<td width="790" bgcolor="#ffffff" valign="top">
+	<!--Contents-->
+		
+		<table align="center" border="0" cellpadding="0" cellspacing="0" width="750">
+			<tr>
+				<td style="padding:0px 0px 0px 30px;">
+
+<!--Content Begin-->
+
+<div class="Contents" id="ArchiveContents">
+
+	
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0px -20px;margin-top:-5px;">
+			<tr>
+				
+					<td align="left" valign="bottom" nowrap>
+						
+							
+								<span id="AccessName"><small>DE0-Nano-SoC</small></span>
+							
+						
+					</td>
+				
+				<td align="right" valign="bottom" width="100%" nowrap>
+					<a name="nav"></a>
+					
+						<ul class="lavaLampNoImage" id="PagePart">
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=7'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=7">Order Now</a></li>
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=6'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=6">Demo</a></li>
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=5'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=5">Kit Contents</a></li>
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=4'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=4">Resources</a></li>
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=3'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=3">Layout</a></li>
+							
+								<li onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=2'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=2">Specifications</a></li>
+							
+								<li class="current" onclick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=1'"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=1">Overview</a></li>
+							
+						</ul>
+					
+				</td>
+			</tr>
+		</table>
+	
+
+	<h2>DE0-Nano-SoC Kit/Atlas-SoC Kit</h2>
+	
+		<div><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.terasic.com.tw%2F%2Fcgi-bin%2Fpage%2Farchive.pl%3FLanguage%3DEnglish%26No%3D941%26Language%3DEnglish%26utm_source%3Dfacebook%26utm_medium%3Dlike%26utm_campaign%3DDE0-Nano-SoC&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></div>
+	
+	
+	<form method="post" action="https://www.terasic.com.tw/cgi-bin/page/checkout.pl" target="CartFrame" id="order941" name="order941">
+	<input type="hidden" name="Language" value="English">
+	<input type="hidden" name="Method" value="UpdateCart">
+	<input type="hidden" name="No" value="941">
+	<input type="hidden" name="Revision" value="021">
+	<input type="hidden" name="Currency" value="USD">
+	<input type="hidden" name="IsPurchasable" value="1">
+
+
+
+	
+		<script>
+		function checkField(theForm){
+			var PQ = 0;
+			var PQT = 0;
+		
+			PQ = parseInt(theForm.ProductQuantify1.value);
+			if(theForm.ProductQuantify1.value.length > 0 && (theForm.ProductQuantify1.value != PQ || PQ < 0)){
+				alert("The quantity of the product you ordered is not correct!");
+				theForm.ProductQuantify1.focus();
+				return false;
+			}else{
+				if(!PQ){	PQ = 0;	}
+				PQT = PQT + PQ;
+			}
+		
+			PQ = parseInt(theForm.ProductQuantify2.value);
+			if(theForm.ProductQuantify2.value.length > 0 && (theForm.ProductQuantify2.value != PQ || PQ < 0)){
+				alert("The quantity of the product you ordered is not correct!");
+				theForm.ProductQuantify2.focus();
+				return false;
+			}else{
+				if(!PQ){	PQ = 0;	}
+				PQT = PQT + PQ;
+			}
+		
+			if(PQT == 0){
+				if(confirm("Setting the quantity to ZERO will remove the item/accessory from the order list.\nDo you want to proceed?")){
+			
+					return true;
+				}else{
+					return false;
+				}
+			}
+	
+			return true;
+		}
+		function OrderAgreement(theNo,theComponent){
+			if(navigator.appName == "Microsoft Internet Explorer"){
+				if(window.showModalDialog('https://www.terasic.com.tw/cgi-bin/page/archive.pl?Method=Agreement&Language=English&No='+theNo+'&TimeStamp=1576447721',window,'dialogHeight:420px;dialogWidth:450px;status:no;')){
+					theComponent.focus();
+				}
+			}else{
+				window.open('https://www.terasic.com.tw/cgi-bin/page/archive.pl?Method=Agreement&Language=English&No='+theNo+'&TimeStamp=1576447721','Agreement','top=150,left=150,width=450,height=420,toolbar=0,menubar=0,location=0,directories=0,status=0')
+			}
+		}
+		</script>
+	
+
+	
+
+		<a name="quick_order_list"></a>
+		
+
+			<table border="0" width="150px" height="100px" cellpadding="2" style="border-left:1px dashed #c8c8c8;" align="right">
+			<tr style="font-size:10px;"><td colspan="2" align="center">(Currency: USD)</td></tr>
+			
+			<tr>
+				<td width="50%" align="right" style="font-size:15px">Price:</td>
+				<td width="50%" align="left" style="color:#000000;font-size:15px">$99</td>
+			</tr>
+			
+			<tr>
+				<td width="50%" align="right" style="font-size:15px"><span style='font-size:10px'>Academic</span>:</td>
+				<td width="50%" align="left" style="color:#000000;font-size:15px">$90</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2" align="right">
+					<input type="button" class="Button ButtonButton" value="Buy it now" onClick="location.href='https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=941&PartNo=7'" style="width:120px;  background-color: #0091de;background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#07b4eb), color-stop(25%, #07b4eb), to(#0091de));background-image: -webkit-linear-gradient(#07b4eb, #07b4eb 25%, #0091de);background-image: -moz-linear-gradient(top, #07b4eb, #07b4eb 25%, #0091de);background-image: -ms-linear-gradient(#07b4eb, #07b4eb 25%, #0091de);background-image: -o-linear-gradient(#07b4eb, #07b4eb 25%, #0091de);background-image: linear-gradient(#07b4eb, #07b4eb 25%, #0091de);background-image: linear-gradient(top, #07b4eb, #0091de);color:#ffffff;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#07b4eb', endColorstr='#0091de', GradientType=0);">
+				</td>
+			</tr>
+			</table>
+
+		
+
+	
+
+
+
+	</form>
+
+
+
+	<div id="Contents">
+	</span>
+</p>
+
+<p><img width="550"  border="0" src="https://www.terasic.com.tw/attachment/archive/941/image/image_76_thumb.jpg" /><br />
+The DE0-Nano-SoC Development Kit presents a robust hardware design platform built around the Altera System-on-Chip (SoC) FPGA, which combines the latest dual-core Cortex-A9 embedded cores with industry-leading programmable logic for ultimate design flexibility. Users can now leverage the power of tremendous re-configurability paired with a high-performance, low-power processor system. Altera&rsquo;s SoC integrates an ARM-based hard processor system (HPS) consisting of processor, peripherals and memory interfaces tied seamlessly with the FPGA fabric using a high-bandwidth interconnect backbone. The DE0-Nano-SoC development board is equipped with high-speed DDR3 memory, analog to digital capabilities, Ethernet networking, and much more that promise many exciting applications.<br />
+<br />
+The DE0-Nano-SoC Development Kit contains all the tools needed to use the board in conjunction with a computer that runs the Microsoft Windows XP or later.</p>
+
+<p><span><b><u><span lang="EN-US">What's different between the DE0-Nano-SoC kit and the Atlas-SoC kit?</span>
+                                                                                         &nbsp;&nbsp;</u>
+                                                                                         &nbsp;</b>
+                                                                                         <span lang="EN-US">&nbsp;</span>
+                                                                                         &nbsp;&nbsp;<b><span lang="EN-US"><br />
+</span>
+                                                                                         </b>
+                                                                                        </span>
+</p>
+
+<p><span>The DE0-Nano-SoC kit &nbsp;uses the same printed circuit board as the Altas-SoC development platform. The only difference is the getting-started process for the two kits. Both kits come with a unique set of reference designs, tools, and documentation providing very different user experiences. Here's how to decide which is better for you:</span>
+</p>
+
+<p><span>DE0-Nano-SoC: Designed for the hardware developer. It provides reference designs and tutorials to guide you through your first FPGA, HPS, and system designs.<br />
+Atlas-SoC: Designed for the embedded software developer. It boots Linux, runs web and VNC servers, and provides reference designs, development tools, and tutorials to accelerate the learning curve of developing software for SoCs.</span>
+</p>
+
+<p><span>Can&rsquo;t decide which to use? Here&rsquo;s how to get them both.<br />
+Regardless of which kit you have, the reference designs, tools, documentation, and SD card images are available for free download. Because the hardware is the same, you can turn a DE0-Nano-SoC kit &nbsp;into an Atlas-SoC kit , or visa-versa, with a simple download and flash card update. Here's where to get the kit&quot;soft&quot; content:</span>
+</p>
+
+<p><span>DE0-Nano-SoC: Available at the Terasic web site&nbsp;</span>
+                                                                                        <a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=205&amp;No=941&amp;PartNo=4#soc"><span>here</span>
+                                                                                        </a>
+                                                                                        <span> &nbsp;<br />
+Atlas-SoC: Available at the Terasic web site&nbsp;</span>
+                                                                                        <a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=205&amp;No=941&amp;PartNo=4#Alt"><span>here</span>
+                                                                                        </a>
+</p>
+
+<p><span>For more details on the Atlas-SoC kit, please visit:&nbsp;</span>
+                                                                                        <a href="http://www.rocketboards.org/atlas-soc"><span>http://www.rocketboards.org/atlas-soc</span>
+                                                                                        </a>
+</p>
+
+<p><span>&nbsp;</span>
+</p>
+
+<p><span><span style="color: rgb(0, 0, 0);"><strong><font size="2">Component Solution&nbsp;</font>
+                                                                                         </strong>
+                                                                                        </span>
+                                                                                        </span>
+                                                                                        <span style="color: rgb(0, 0, 0);"><strong>
+<table width="500" border="0">
+    <tbody>
+        <tr>
+            <td width="190" valign="top" align="left"><strong><a href="http://www.analog.com/en/index.html" target="_blank"><img width="150" src="https://www.terasic.com.tw/attachment/archive/869/image/image_64_thumb.png" /></a>
+   </strong>
+</td>
+
+            <td width="216" valign="top" align="left"><a href="http://www.issi.com/US/index.shtml" target="_blank"><span><img width="150" src="https://www.terasic.com.tw/attachment/archive/836/image/image_56_thumb.jpg" /></span>
+                                                                                        </a>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><span><font size="1" color="#800000"><b>▲ Power&nbsp;and ADC Solution, </b>
+   </font>
+   </span>
+   <span style="color: rgb(0, 0, 0);"><strong><font size="1" color="#800000"><b>Accelerometer Solution</b>
+   </font>
+   </strong>
+   </span>
+</td>
+
+            <td valign="top" align="left"><span><font size="1" color="#800000"><b>▲ SDRAM Memory Solution</b>
+                                                                                                      </font>
+                                                                                        </span>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><span>&nbsp;</span>
+</td>
+
+            <td valign="top" align="left"><span>&nbsp;</span>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><a href="http://www.microchip.com/" target="_blank"><img width="150"  src="https://www.terasic.com.tw/attachment/archive/941/image/MicrochipTechnology_Logo.jpg" /></a>
+</td>
+
+            <td valign="top" align="left"><a href="https://www.terasic.com.tw/attachment/archive/836/image/image_63_thumb.png" target="_blank"><img width="150" src="https://www.terasic.com.tw/attachment/archive/836/image/image_63_thumb.png" /></a>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><font size="1" color="#800000"><b>▲ Ethernet Solution</b>
+      </font>
+</td>
+
+            <td valign="top" align="left"><font size="1" color="#800000"><b>▲ Inductive Component Solution</b>
+      </font>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><span>&nbsp;</span>
+</td>
+
+            <td valign="top" align="left"><span>&nbsp;</span>
+</td>
+
+        </tr>
+
+        <tr>
+            <td valign="bottom" align="left"><a href="https://www.panasonic.com/global/home.html" target="_blank"><img width="150" src="https://www.terasic.com.tw/attachment/archive/836/image/image_60_thumb.png" /></a>
+</td>
+
+            <td valign="bottom" align="left">&nbsp;</td>
+
+        </tr>
+
+        <tr>
+            <td valign="top" align="left"><font size="1" color="#800000"><b>▲ Capacitive Component Solution</b>
+      </font>
+</td>
+
+            <td valign="top" align="left"><font size="1" color="#800000">   </font>
+</td>
+
+        </tr>
+
+    </tbody>
+
+</table>
+
+</strong>
+                                                                                        </span>
+                                                                                        <span><span style="color: rgb(0, 0, 0);"><strong> </strong>
+                                                                                                                                                                                                                                                                   </span>
+                                                                                        </span>
+</p>
+
+<p><span><strong>
+	</div>
+
+	<!--Navigation Begin-->
+	
+		
+			<br/>
+			<hr>
+			<table width="90%" align="center"><tr>
+			
+			<td align="right"><a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=941&PartNo=2#section"><img src="https://www.terasic.com.tw/res/images/archive/next.gif" align="absmiddle" border="0" title="Specifications"> <b>Specifications</b></a></td>
+			</tr></table>
+		
+	
+	<!--Navigation End-->
+
+</div>
+<!--Content End-->
+
+				</td>
+			</tr>
+		</table>
+	<!--/Contents-->
+	<div class="go_top"><a href="#top"><img src="https://www.terasic.com.tw/theme/2012/images/top.jpg" border="0"></a></div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center" class="Bottom_NavBar">
+			<!--Menu-->
+			
+				
+				<a id="menu11" href="/cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=11">Newsroom</a>
+			
+				 | 
+				<a id="menu12" href="/cgi-bin/page/archive.pl?Language=English&amp;No=464">About Terasic</a>
+			
+				 | 
+				<a id="menu17" href="    /cgi-bin/page/archive.pl?Language=English&amp;CategoryNo=13&amp;List=Simple">Products</a>
+			
+				 | 
+				<a id="menu14" href="/cgi-bin/page/archive.pl?Language=English&amp;No=472">Turnkey Solutions</a>
+			
+				 | 
+				<a id="menu15" href="/cgi-bin/page/archive.pl?Language=English&amp;No=200">Training</a>
+			
+				 | 
+				<a id="menu16" href="/cgi-bin/page/archive.pl?Language=English&amp;No=462">FAQ</a>
+			
+			<!--/Menu-->
+			 | 
+			
+				
+					<a href="https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=12&No=20">Contact Us</a>
+				
+			
+			 | 
+			
+				
+					<a href="https://www.terasic.com.tw/cgi-bin/p/subscribe.pl" target="_blank">Subscribe</a>
+				
+			
+			
+				 | 
+				<a href="http://facebook.com/terasic" target="_blank">Facebook</a>
+				 | 
+				<a href="http://www.youtube.com/terasictv" target="_blank">YouTube</a>
+			
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" class="Bottom_copyright">
+        				TEL : +886-3-5750880 FAX : +886-3-5726690 E-MAIL : <a href="mailto:sales@terasic.com">sales@terasic.com</a><br/>
+                        
+						Copyright &copy; 2003-2013 Terasic Inc. All Rights Reserved.
+						
+		</td>
+	</tr>
+</table>
+
+</td>
+<td></td></tr>
+</table>
+
+<script src="/cgi-bin/page/archive_menu.pl?Language=English"></script>
+</body>
+
+</html>
+

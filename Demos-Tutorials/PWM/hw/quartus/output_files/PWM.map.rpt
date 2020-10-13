@@ -1,0 +1,589 @@
+Analysis & Synthesis report for PWM
+Fri Nov 15 10:42:00 2019
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
+ 12. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Nov 15 10:42:00 2019       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; PWM                                         ;
+; Top-level Entity Name           ; de0_nano_soc_baseline                       ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 17                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                ;
++---------------------------------------------------------------------------------+-----------------------+--------------------+
+; Option                                                                          ; Setting               ; Default Value      ;
++---------------------------------------------------------------------------------+-----------------------+--------------------+
+; Device                                                                          ; 5CSEMA4U23C6          ;                    ;
+; Top-level entity name                                                           ; de0_nano_soc_baseline ; PWM                ;
+; Family name                                                                     ; Cyclone V             ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                   ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                    ; On                 ;
+; Enable compact report table                                                     ; Off                   ; Off                ;
+; Restructure Multiplexers                                                        ; Auto                  ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                   ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                   ; Off                ;
+; Preserve fewer node names                                                       ; On                    ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable                ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001          ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993             ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto                  ; Auto               ;
+; Safe State Machine                                                              ; Off                   ; Off                ;
+; Extract Verilog State Machines                                                  ; On                    ; On                 ;
+; Extract VHDL State Machines                                                     ; On                    ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                   ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000                  ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                   ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                    ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                    ; On                 ;
+; Parallel Synthesis                                                              ; On                    ; On                 ;
+; DSP Block Balancing                                                             ; Auto                  ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                    ; On                 ;
+; Power-Up Don't Care                                                             ; On                    ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                   ; Off                ;
+; Remove Duplicate Registers                                                      ; On                    ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                   ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                   ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                   ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                   ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                   ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                    ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                   ; Off                ;
+; Optimization Technique                                                          ; Balanced              ; Balanced           ;
+; Carry Chain Length                                                              ; 70                    ; 70                 ;
+; Auto Carry Chains                                                               ; On                    ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                    ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                   ; Off                ;
+; Auto ROM Replacement                                                            ; On                    ; On                 ;
+; Auto RAM Replacement                                                            ; On                    ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                    ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto                  ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto                  ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                    ; On                 ;
+; Strict RAM Replacement                                                          ; Off                   ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                    ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                   ; Off                ;
+; Auto Resource Sharing                                                           ; Off                   ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                   ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                   ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                   ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                    ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                   ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                    ; On                 ;
+; Report Parameter Settings                                                       ; On                    ; On                 ;
+; Report Source Assignments                                                       ; On                    ; On                 ;
+; Report Connectivity Checks                                                      ; On                    ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                   ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                     ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation    ; Normal compilation ;
+; HDL message level                                                               ; Level2                ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                   ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000                  ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000                  ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                   ; 100                ;
+; Clock MUX Protection                                                            ; On                    ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                   ; Off                ;
+; Block Design Naming                                                             ; Auto                  ; Auto               ;
+; SDC constraint protection                                                       ; Off                   ; Off                ;
+; Synthesis Effort                                                                ; Auto                  ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                    ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                   ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium                ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto                  ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                    ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                    ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                   ; Off                ;
++---------------------------------------------------------------------------------+-----------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                           ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                             ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
+; de0_nano_soc_baseline.v          ; yes             ; User Verilog HDL File  ; C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary               ;
++---------------------------------------------+-------------+
+; Resource                                    ; Usage       ;
++---------------------------------------------+-------------+
+; Estimate of Logic utilization (ALMs needed) ; 0           ;
+;                                             ;             ;
+; Combinational ALUT usage for logic          ; 0           ;
+;     -- 7 input functions                    ; 0           ;
+;     -- 6 input functions                    ; 0           ;
+;     -- 5 input functions                    ; 0           ;
+;     -- 4 input functions                    ; 0           ;
+;     -- <=3 input functions                  ; 0           ;
+;                                             ;             ;
+; Dedicated logic registers                   ; 0           ;
+;                                             ;             ;
+; I/O pins                                    ; 17          ;
+;                                             ;             ;
+; Total DSP Blocks                            ; 0           ;
+;                                             ;             ;
+; Maximum fan-out node                        ; FPGA_CLK_50 ;
+; Maximum fan-out                             ; 1           ;
+; Total fan-out                               ; 17          ;
+; Average fan-out                             ; 0.50        ;
++---------------------------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                 ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name    ; Entity Name           ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------+-----------------------+--------------+
+; |de0_nano_soc_baseline     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 17   ; 0            ; |de0_nano_soc_baseline ; de0_nano_soc_baseline ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------+-----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 1                           ;
+;     normal            ; 1                           ;
+;         0 data inputs ; 1                           ;
+; boundary_port         ; 17                          ;
+;                       ;                             ;
+; Max LUT depth         ; 0.00                        ;
+; Average LUT depth     ; 0.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Nov 15 10:40:12 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off PWM -c PWM
+Info (125069): Default assignment values were changed in the current version of the Quartus Prime software -- changes to default assignments values are contained in file c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12248): Elaborating Platform Designer system entity "PWM_system.qsys"
+Info (12250): 2019.11.15.10:40:42 Progress: Loading quartus/PWM_system.qsys
+Info (12250): 2019.11.15.10:40:43 Progress: Reading input file
+Info (12250): 2019.11.15.10:40:44 Progress: Adding clk_0 [clock_source 18.1]
+Info (12250): 2019.11.15.10:40:46 Progress: Parameterizing module clk_0
+Info (12250): 2019.11.15.10:40:46 Progress: Adding epcs_flash_controller_0 [altera_avalon_epcs_flash_controller 18.1]
+Info (12250): 2019.11.15.10:40:46 Progress: Parameterizing module epcs_flash_controller_0
+Info (12250): 2019.11.15.10:40:46 Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Info (12250): 2019.11.15.10:40:46 Progress: Parameterizing module jtag_uart_0
+Info (12250): 2019.11.15.10:40:46 Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module nios2_gen2_0
+Info (12250): 2019.11.15.10:40:47 Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module onchip_memory2_0
+Info (12250): 2019.11.15.10:40:47 Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module pio_0
+Info (12250): 2019.11.15.10:40:47 Progress: Adding pio_1 [altera_avalon_pio 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module pio_1
+Info (12250): 2019.11.15.10:40:47 Progress: Adding pio_2 [altera_avalon_pio 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module pio_2
+Info (12250): 2019.11.15.10:40:47 Progress: Adding pio_3 [altera_avalon_pio 18.1]
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing module pio_3
+Info (12250): 2019.11.15.10:40:47 Progress: Building connections
+Info (12250): 2019.11.15.10:40:47 Progress: Parameterizing connections
+Info (12250): 2019.11.15.10:40:47 Progress: Validating
+Info (12250): 2019.11.15.10:40:51 Progress: Done reading input file
+Info (12250): PWM_system.epcs_flash_controller_0: Legacy EPCS/EPCQx1 Flash Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info (12250): PWM_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info (12250): PWM_system.pio_0: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): PWM_system.pio_1: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): PWM_system.pio_2: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info (12250): PWM_system: Generating PWM_system "PWM_system" for QUARTUS_SYNTH
+Info (12250): Epcs_flash_controller_0: Starting RTL generation for module 'PWM_system_epcs_flash_controller_0'
+Info (12250): Epcs_flash_controller_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_epcs_flash_controller -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_epcs_flash_controller/generate_rtl.pl --name=PWM_system_epcs_flash_controller_0 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0002_epcs_flash_controller_0_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0002_epcs_flash_controller_0_gen//PWM_system_epcs_flash_controller_0_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Epcs_flash_controller_0: Done RTL generation for module 'PWM_system_epcs_flash_controller_0'
+Info (12250): Epcs_flash_controller_0: "PWM_system" instantiated altera_avalon_epcs_flash_controller "epcs_flash_controller_0"
+Info (12250): Jtag_uart_0: Starting RTL generation for module 'PWM_system_jtag_uart_0'
+Info (12250): Jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=PWM_system_jtag_uart_0 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0003_jtag_uart_0_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0003_jtag_uart_0_gen//PWM_system_jtag_uart_0_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Jtag_uart_0: Done RTL generation for module 'PWM_system_jtag_uart_0'
+Info (12250): Jtag_uart_0: "PWM_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info (12250): Nios2_gen2_0: "PWM_system" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info (12250): Onchip_memory2_0: Starting RTL generation for module 'PWM_system_onchip_memory2_0'
+Info (12250): Onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=PWM_system_onchip_memory2_0 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0004_onchip_memory2_0_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0004_onchip_memory2_0_gen//PWM_system_onchip_memory2_0_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Onchip_memory2_0: Done RTL generation for module 'PWM_system_onchip_memory2_0'
+Info (12250): Onchip_memory2_0: "PWM_system" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info (12250): Pio_0: Starting RTL generation for module 'PWM_system_pio_0'
+Info (12250): Pio_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=PWM_system_pio_0 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0005_pio_0_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0005_pio_0_gen//PWM_system_pio_0_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Pio_0: Done RTL generation for module 'PWM_system_pio_0'
+Info (12250): Pio_0: "PWM_system" instantiated altera_avalon_pio "pio_0"
+Info (12250): Pio_2: Starting RTL generation for module 'PWM_system_pio_2'
+Info (12250): Pio_2:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=PWM_system_pio_2 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0006_pio_2_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0006_pio_2_gen//PWM_system_pio_2_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Pio_2: Done RTL generation for module 'PWM_system_pio_2'
+Info (12250): Pio_2: "PWM_system" instantiated altera_avalon_pio "pio_2"
+Info (12250): Pio_3: Starting RTL generation for module 'PWM_system_pio_3'
+Info (12250): Pio_3:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=PWM_system_pio_3 {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0007_pio_3_gen/} --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0007_pio_3_gen//PWM_system_pio_3_component_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Pio_3: Done RTL generation for module 'PWM_system_pio_3'
+Info (12250): Pio_3: "PWM_system" instantiated altera_avalon_pio "pio_3"
+Info (12250): Avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info (12250): Avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info (12250): Mm_interconnect_0: "PWM_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info (12250): Irq_mapper: "PWM_system" instantiated altera_irq_mapper "irq_mapper"
+Info (12250): Rst_controller: "PWM_system" instantiated altera_reset_controller "rst_controller"
+Info (12250): Cpu: Starting RTL generation for module 'PWM_system_nios2_gen2_0_cpu'
+Info (12250): Cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=PWM_system_nios2_gen2_0_cpu {--dir=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0010_cpu_gen/} --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog {--config=C:/Users/Abhi Kamboj/AppData/Local/Temp/alt8215_7936851708886757109.dir/0010_cpu_gen//PWM_system_nios2_gen2_0_cpu_processor_configuration.pl}  --do_build_sim=0  ]
+Info (12250): Cpu: # 2019.11.15 10:41:36 (*) Starting Nios II generation
+Info (12250): Cpu: # 2019.11.15 10:41:36 (*)   Checking for plaintext license.
+Info (12250): Cpu: # 2019.11.15 10:41:37 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info (12250): Cpu: # 2019.11.15 10:41:37 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2019.11.15 10:41:37 (*)   LM_LICENSE_FILE environment variable is empty
+Info (12250): Cpu: # 2019.11.15 10:41:37 (*)   Plaintext license not found.
+Info (12250): Cpu: # 2019.11.15 10:41:37 (*)   Checking for encrypted license (non-evaluation).
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   LM_LICENSE_FILE environment variable is empty
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   Elaborating CPU configuration settings
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)   Creating all objects for CPU
+Info (12250): Cpu: # 2019.11.15 10:41:38 (*)     Testbench
+Info (12250): Cpu: # 2019.11.15 10:41:39 (*)     Instruction decoding
+Info (12250): Cpu: # 2019.11.15 10:41:39 (*)       Instruction fields
+Info (12250): Cpu: # 2019.11.15 10:41:39 (*)       Instruction decodes
+Info (12250): Cpu: # 2019.11.15 10:41:40 (*)       Signals for RTL simulation waveforms
+Info (12250): Cpu: # 2019.11.15 10:41:40 (*)       Instruction controls
+Info (12250): Cpu: # 2019.11.15 10:41:40 (*)     Pipeline frontend
+Info (12250): Cpu: # 2019.11.15 10:41:41 (*)     Pipeline backend
+Info (12250): Cpu: # 2019.11.15 10:41:46 (*)   Generating RTL from CPU objects
+Info (12250): Cpu: # 2019.11.15 10:41:50 (*)   Creating encrypted RTL
+Info (12250): Cpu: # 2019.11.15 10:41:51 (*) Done Nios II generation
+Info (12250): Cpu: Done RTL generation for module 'PWM_system_nios2_gen2_0_cpu'
+Info (12250): Cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info (12250): Nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info (12250): Nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info (12250): Jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info (12250): Router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info (12250): Router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info (12250): Router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info (12250): Router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info (12250): Nios2_gen2_0_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_gen2_0_data_master_limiter"
+Info (12250): Reusing file C:/intelFPGA_lite/PWM/hw/quartus/db/ip/PWM_system/submodules/altera_avalon_sc_fifo.v
+Info (12250): Cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info (12250): Cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info (12250): Cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info (12250): Cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info (12250): Reusing file C:/intelFPGA_lite/PWM/hw/quartus/db/ip/PWM_system/submodules/altera_merlin_arbitrator.sv
+Info (12250): Rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info (12250): Rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info (12250): Rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info (12250): Reusing file C:/intelFPGA_lite/PWM/hw/quartus/db/ip/PWM_system/submodules/altera_merlin_arbitrator.sv
+Info (12250): Rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info (12250): Reusing file C:/intelFPGA_lite/PWM/hw/quartus/db/ip/PWM_system/submodules/altera_merlin_arbitrator.sv
+Info (12250): Avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info (12250): Error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info (12250): PWM_system: Done "PWM_system" with 32 modules, 53 files
+Info (12249): Finished elaborating Platform Designer system entity "PWM_system.qsys"
+Info (12021): Found 1 design units, including 1 entities, in source file de0_nano_soc_baseline.v
+    Info (12023): Found entity 1: de0_nano_soc_baseline File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 40
+Info (12021): Found 2 design units, including 1 entities, in source file pwm.vhd
+    Info (12022): Found design unit 1: PWM-rtl File: C:/intelFPGA_lite/PWM/hw/quartus/PWM.vhd Line: 17
+    Info (12023): Found entity 1: PWM File: C:/intelFPGA_lite/PWM/hw/quartus/PWM.vhd Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/pwm_system.v
+    Info (12023): Found entity 1: PWM_system File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/pwm_system.v Line: 6
+Info (12021): Found 3 design units, including 3 entities, in source file db/ip/pwm_system/submodules/pwm_system_epcs_flash_controller_0.v
+    Info (12023): Found entity 1: PWM_system_epcs_flash_controller_0_sub File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_epcs_flash_controller_0.v Line: 41
+    Info (12023): Found entity 2: tornado_PWM_system_epcs_flash_controller_0_atom File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_epcs_flash_controller_0.v Line: 425
+    Info (12023): Found entity 3: PWM_system_epcs_flash_controller_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_epcs_flash_controller_0.v Line: 484
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_irq_mapper.sv
+    Info (12023): Found entity 1: PWM_system_irq_mapper File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_irq_mapper.sv Line: 31
+Info (12021): Found 5 design units, including 5 entities, in source file db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v
+    Info (12023): Found entity 1: PWM_system_jtag_uart_0_sim_scfifo_w File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v Line: 21
+    Info (12023): Found entity 2: PWM_system_jtag_uart_0_scfifo_w File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v Line: 78
+    Info (12023): Found entity 3: PWM_system_jtag_uart_0_sim_scfifo_r File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v Line: 164
+    Info (12023): Found entity 4: PWM_system_jtag_uart_0_scfifo_r File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v Line: 243
+    Info (12023): Found entity 5: PWM_system_jtag_uart_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_jtag_uart_0.v Line: 331
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0.v
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_avalon_st_adapter.v
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_avalon_st_adapter File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_avalon_st_adapter.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv Line: 66
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_demux.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_cmd_demux File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_demux_001.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_cmd_demux_001 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_demux_001.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_mux.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_cmd_mux File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_mux.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_mux_001.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_cmd_mux_001 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_cmd_mux_001.sv Line: 51
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_router_default_decode File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router.sv Line: 45
+    Info (12023): Found entity 2: PWM_system_mm_interconnect_0_router File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_001.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_router_001_default_decode File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_001.sv Line: 45
+    Info (12023): Found entity 2: PWM_system_mm_interconnect_0_router_001 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_001.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_002.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_router_002_default_decode File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_002.sv Line: 45
+    Info (12023): Found entity 2: PWM_system_mm_interconnect_0_router_002 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_002.sv Line: 84
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_003.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_router_003_default_decode File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_003.sv Line: 45
+    Info (12023): Found entity 2: PWM_system_mm_interconnect_0_router_003 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_router_003.sv Line: 84
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_demux.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_rsp_demux File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_demux.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_demux_001.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_rsp_demux_001 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_demux_001.sv Line: 43
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_mux.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_rsp_mux File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_mux.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_mux_001.sv
+    Info (12023): Found entity 1: PWM_system_mm_interconnect_0_rsp_mux_001 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_mm_interconnect_0_rsp_mux_001.sv Line: 51
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0.v Line: 9
+Info (12021): Found 27 design units, including 27 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_ic_data_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 21
+    Info (12023): Found entity 2: PWM_system_nios2_gen2_0_cpu_ic_tag_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 89
+    Info (12023): Found entity 3: PWM_system_nios2_gen2_0_cpu_bht_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 158
+    Info (12023): Found entity 4: PWM_system_nios2_gen2_0_cpu_register_bank_a_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 227
+    Info (12023): Found entity 5: PWM_system_nios2_gen2_0_cpu_register_bank_b_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 293
+    Info (12023): Found entity 6: PWM_system_nios2_gen2_0_cpu_dc_tag_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 359
+    Info (12023): Found entity 7: PWM_system_nios2_gen2_0_cpu_dc_data_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 425
+    Info (12023): Found entity 8: PWM_system_nios2_gen2_0_cpu_dc_victim_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 494
+    Info (12023): Found entity 9: PWM_system_nios2_gen2_0_cpu_nios2_oci_debug File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 562
+    Info (12023): Found entity 10: PWM_system_nios2_gen2_0_cpu_nios2_oci_break File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 708
+    Info (12023): Found entity 11: PWM_system_nios2_gen2_0_cpu_nios2_oci_xbrk File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1001
+    Info (12023): Found entity 12: PWM_system_nios2_gen2_0_cpu_nios2_oci_dbrk File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1262
+    Info (12023): Found entity 13: PWM_system_nios2_gen2_0_cpu_nios2_oci_itrace File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1451
+    Info (12023): Found entity 14: PWM_system_nios2_gen2_0_cpu_nios2_oci_td_mode File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1634
+    Info (12023): Found entity 15: PWM_system_nios2_gen2_0_cpu_nios2_oci_dtrace File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1702
+    Info (12023): Found entity 16: PWM_system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1784
+    Info (12023): Found entity 17: PWM_system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1856
+    Info (12023): Found entity 18: PWM_system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1899
+    Info (12023): Found entity 19: PWM_system_nios2_gen2_0_cpu_nios2_oci_fifo File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 1946
+    Info (12023): Found entity 20: PWM_system_nios2_gen2_0_cpu_nios2_oci_pib File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2432
+    Info (12023): Found entity 21: PWM_system_nios2_gen2_0_cpu_nios2_oci_im File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2455
+    Info (12023): Found entity 22: PWM_system_nios2_gen2_0_cpu_nios2_performance_monitors File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2525
+    Info (12023): Found entity 23: PWM_system_nios2_gen2_0_cpu_nios2_avalon_reg File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2542
+    Info (12023): Found entity 24: PWM_system_nios2_gen2_0_cpu_ociram_sp_ram_module File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2635
+    Info (12023): Found entity 25: PWM_system_nios2_gen2_0_cpu_nios2_ocimem File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2700
+    Info (12023): Found entity 26: PWM_system_nios2_gen2_0_cpu_nios2_oci File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 2881
+    Info (12023): Found entity 27: PWM_system_nios2_gen2_0_cpu File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu.v Line: 3426
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_debug_slave_sysclk File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_sysclk.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_tck.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_debug_slave_tck File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_tck.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_debug_slave_wrapper File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_debug_slave_wrapper.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_mult_cell.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_mult_cell File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_mult_cell.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_test_bench.v
+    Info (12023): Found entity 1: PWM_system_nios2_gen2_0_cpu_test_bench File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_nios2_gen2_0_cpu_test_bench.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_onchip_memory2_0.v
+    Info (12023): Found entity 1: PWM_system_onchip_memory2_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_onchip_memory2_0.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_pio_0.v
+    Info (12023): Found entity 1: PWM_system_pio_0 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_pio_0.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_pio_2.v
+    Info (12023): Found entity 1: PWM_system_pio_2 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_pio_2.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/pwm_system_pio_3.v
+    Info (12023): Found entity 1: PWM_system_pio_3 File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_pio_3.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_avalon_sc_fifo.v
+    Info (12023): Found entity 1: altera_avalon_sc_fifo File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_avalon_sc_fifo.v Line: 21
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_avalon_st_pipeline_base.v
+    Info (12023): Found entity 1: altera_avalon_st_pipeline_base File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_avalon_st_pipeline_base.v Line: 22
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/altera_merlin_arbitrator.sv
+    Info (12023): Found entity 1: altera_merlin_arbitrator File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_arbitrator.sv Line: 103
+    Info (12023): Found entity 2: altera_merlin_arb_adder File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_arbitrator.sv Line: 228
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_burst_uncompressor.sv
+    Info (12023): Found entity 1: altera_merlin_burst_uncompressor File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_burst_uncompressor.sv Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_master_agent.sv
+    Info (12023): Found entity 1: altera_merlin_master_agent File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_master_agent.sv Line: 28
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_master_translator.sv
+    Info (12023): Found entity 1: altera_merlin_master_translator File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_master_translator.sv Line: 32
+Info (12021): Found 2 design units, including 2 entities, in source file db/ip/pwm_system/submodules/altera_merlin_reorder_memory.sv
+    Info (12023): Found entity 1: altera_merlin_reorder_memory File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_reorder_memory.sv Line: 28
+    Info (12023): Found entity 2: memory_pointer_controller File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_reorder_memory.sv Line: 185
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_slave_agent.sv
+    Info (12023): Found entity 1: altera_merlin_slave_agent File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_slave_agent.sv Line: 34
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_slave_translator.sv
+    Info (12023): Found entity 1: altera_merlin_slave_translator File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_slave_translator.sv Line: 35
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_merlin_traffic_limiter.sv
+    Info (12023): Found entity 1: altera_merlin_traffic_limiter File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_merlin_traffic_limiter.sv Line: 49
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_reset_controller.v
+    Info (12023): Found entity 1: altera_reset_controller File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_reset_controller.v Line: 42
+Info (12021): Found 1 design units, including 1 entities, in source file db/ip/pwm_system/submodules/altera_reset_synchronizer.v
+    Info (12023): Found entity 1: altera_reset_synchronizer File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/altera_reset_synchronizer.v Line: 24
+Warning (10037): Verilog HDL or VHDL warning at pwm_system_epcs_flash_controller_0.v(402): conditional expression evaluates to a constant File: C:/intelFPGA_lite/PWM/hw/quartus/db/ip/pwm_system/submodules/pwm_system_epcs_flash_controller_0.v Line: 402
+Info (12127): Elaborating entity "de0_nano_soc_baseline" for the top level hierarchy
+Warning (10034): Output port "LED" at de0_nano_soc_baseline.v(140) has no driver File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+Warning (12158): Entity "de0_nano_soc_baseline" contains only dangling pins
+Warning (12189): Intel FPGA IP Evaluation Mode (Simulation-Only) feature is turned on for all cores in the design
+    Warning (12191): Some cores in this design do not support the Intel FPGA IP Evaluation Mode feature
+        Warning (12192): "Nios II Processor (6AF7_00A2)" does not support the Intel FPGA IP Evaluation Mode feature
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 140
+Warning (20013): Ignored 19 assignments for entity "PWM_system" -- entity does not exist in design
+Warning (20013): Ignored 16 assignments for entity "PWM_system_epcs_flash_controller_0" -- entity does not exist in design
+Warning (20013): Ignored 14 assignments for entity "PWM_system_irq_mapper" -- entity does not exist in design
+Warning (20013): Ignored 24 assignments for entity "PWM_system_jtag_uart_0" -- entity does not exist in design
+Warning (20013): Ignored 12 assignments for entity "PWM_system_mm_interconnect_0" -- entity does not exist in design
+Warning (20013): Ignored 32 assignments for entity "PWM_system_mm_interconnect_0_avalon_st_adapter" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "PWM_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "PWM_system_mm_interconnect_0_cmd_demux" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "PWM_system_mm_interconnect_0_cmd_demux_001" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "PWM_system_mm_interconnect_0_cmd_mux" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "PWM_system_mm_interconnect_0_cmd_mux_001" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "PWM_system_mm_interconnect_0_router" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "PWM_system_mm_interconnect_0_router_001" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "PWM_system_mm_interconnect_0_router_002" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "PWM_system_mm_interconnect_0_router_003" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "PWM_system_mm_interconnect_0_rsp_demux" -- entity does not exist in design
+Warning (20013): Ignored 17 assignments for entity "PWM_system_mm_interconnect_0_rsp_demux_001" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "PWM_system_mm_interconnect_0_rsp_mux" -- entity does not exist in design
+Warning (20013): Ignored 19 assignments for entity "PWM_system_mm_interconnect_0_rsp_mux_001" -- entity does not exist in design
+Warning (20013): Ignored 172 assignments for entity "PWM_system_nios2_gen2_0" -- entity does not exist in design
+Warning (20013): Ignored 179 assignments for entity "PWM_system_nios2_gen2_0_cpu" -- entity does not exist in design
+Warning (20013): Ignored 36 assignments for entity "PWM_system_onchip_memory2_0" -- entity does not exist in design
+Warning (20013): Ignored 23 assignments for entity "PWM_system_pio_0" -- entity does not exist in design
+Warning (20013): Ignored 23 assignments for entity "PWM_system_pio_2" -- entity does not exist in design
+Warning (20013): Ignored 22 assignments for entity "PWM_system_pio_3" -- entity does not exist in design
+Warning (20013): Ignored 23 assignments for entity "altera_avalon_sc_fifo" -- entity does not exist in design
+Warning (20013): Ignored 64 assignments for entity "altera_merlin_master_agent" -- entity does not exist in design
+Warning (20013): Ignored 55 assignments for entity "altera_merlin_master_translator" -- entity does not exist in design
+Warning (20013): Ignored 53 assignments for entity "altera_merlin_slave_agent" -- entity does not exist in design
+Warning (20013): Ignored 68 assignments for entity "altera_merlin_slave_translator" -- entity does not exist in design
+Warning (20013): Ignored 34 assignments for entity "altera_merlin_traffic_limiter" -- entity does not exist in design
+Warning (20013): Ignored 35 assignments for entity "altera_reset_controller" -- entity does not exist in design
+Info (144001): Generated suppressed messages file C:/intelFPGA_lite/PWM/hw/quartus/output_files/PWM.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 9 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "FPGA_CLK_50" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 44
+    Warning (15610): No output dependent on input pin "FPGA_CLK2_50" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 45
+    Warning (15610): No output dependent on input pin "FPGA_CLK3_50" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 46
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 136
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 136
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 146
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 146
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 146
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/intelFPGA_lite/PWM/hw/quartus/de0_nano_soc_baseline.v Line: 146
+Info (21057): Implemented 17 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 8 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 58 warnings
+    Info: Peak virtual memory: 4890 megabytes
+    Info: Processing ended: Fri Nov 15 10:42:00 2019
+    Info: Elapsed time: 00:01:48
+    Info: Total CPU time (on all processors): 00:02:45
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/intelFPGA_lite/PWM/hw/quartus/output_files/PWM.map.smsg.
+
+

@@ -1,0 +1,22 @@
+15:21:45 **** Incremental Build of configuration Nios II for project RW_pwm ****
+make all 
+Info: Building ../RW_pwm_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../RW_pwm_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../RW_pwm_bsp//HAL/inc -I../RW_pwm_bsp/ -I../RW_pwm_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:65:15: warning: unused variable 'i' [-Wunused-variable]
+  volatile int i =0;
+               ^
+Info: Linking RW_pwm.elf
+nios2-elf-g++  -T'../RW_pwm_bsp//linker.x' -msys-crt0='../RW_pwm_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../RW_pwm_bsp/   -Wl,-Map=RW_pwm.map   -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o RW_pwm.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert RW_pwm.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name pwm_system --quartus_project_dir "C:/intelFPGA_lite/PWM_avalonSlave/hw/quartus" --jdi ../..//output_files/PWM_avalonSlave.jdi --sopcinfo C:/intelFPGA_lite/PWM_avalonSlave/hw/quartus/software/RW_pwm_bsp/../../pwm_system.sopcinfo
+Info: (RW_pwm.elf) 68 KBytes program size (code + initialized data).
+Info:              52 KBytes free for stack + heap.
+Info: Creating RW_pwm.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source RW_pwm.elf >RW_pwm.objdump
+[RW_pwm build complete]
+
+15:21:48 Build Finished (took 2s.207ms)
+

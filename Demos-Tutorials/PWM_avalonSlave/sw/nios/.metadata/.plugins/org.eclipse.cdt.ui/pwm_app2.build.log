@@ -1,0 +1,9 @@
+12:52:34 **** Build of configuration Nios II for project pwm_app2 ****
+make all 
+Info: Building ../pwm_app2_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pwm_app2_bsp/
+[BSP build complete]
+[pwm_app2 build complete]
+
+12:52:35 Build Finished (took 1s.51ms)
+

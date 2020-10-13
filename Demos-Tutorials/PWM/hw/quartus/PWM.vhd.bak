@@ -1,0 +1,73 @@
+
+entity PWM is 
+	FPGA_CLK1_50	:	in		std_logic;
+	KEY_N				:	in		std_logic_vector(1 down to 0);
+	
+	period	:	in		integer;
+	dc			:	in		integer;
+	polarity	:	in		std_logic;
+	
+	GPIO_0	:	inout	std_logic
+end entity PWM;
+
+architecture rtl of PWM is
+	component PWM_system is
+		port (
+			clk				: in std_logic			:='X';
+			reset				: in std_logic			:='X';
+			pio_period		: in integer;
+			pio_dc			: in integer;
+			pio_polarity	: in std_logic;
+			pio_output		: out std_logic;		:='X';
+		)
+	end component
+--	signal period	: integer;
+--	signal dc		: integer;
+--	signal polar	: std_logic;
+	signal outpwm	: std_logic;
+	signal counter : integer;
+	signal clk_slow : std_logic;
+begin
+
+	p : component PWM_system
+		port map(
+			clk			=>	FPGA_CLK1_50,
+			reset			=>	KEY_N(0),
+			pio_period	=>	period,
+			pio_dc		=> dc,
+			pio_polarity => polarity,
+			pio_output 	=> outpwm
+		)
+--	
+--	change_period: Process(new_period)
+--		begin
+--			period <= new_period;
+--		end process change_period
+--		
+--	change_period: Process(new_period)
+--		begin
+--			period <= new_period;
+--		end process change_period
+		
+	count : Process(clk)
+	begin
+		if rising
+		if count=1000 then
+			count =0;
+			clk_slow = 1;
+		else
+			count := count+1;
+			clk_slow = 0;
+	end
+	
+			
+	writePWM : Process(clk,reset)
+	begin
+		if reset:
+			outpwm <= '0'
+		else
+			if rising_edge(clk) then
+				
+				
+		
+end rtl
